@@ -1,0 +1,28 @@
+columnSuffix: null
+handle: selectIndividualEntries
+instructions: null
+name: 'Select Individual Entries'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  defaultPlacement: end
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSearchInput: true
+  showSiteMenu: false
+  showUnpermittedEntries: false
+  showUnpermittedSections: false
+  sources:
+    - 'section:222d6ea4-e3a8-4270-8dae-597e1c1f38d4' # Articles
+    - 'section:de9f415c-6141-4af4-a5f7-90f4e1c7c487' # Team
+    - 'section:40dc5d7c-524a-4527-aa32-9e6bddf371d1' # Work
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

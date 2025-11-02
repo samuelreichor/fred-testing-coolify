@@ -1,0 +1,132 @@
+descriptionFormat: ''
+handle: drinks
+hasDimensions: false
+hasProductTitleField: true
+hasVariantTitleField: false
+maxVariants: 1
+name: Getränke
+productFieldLayouts:
+  82718c04-9397-4f95-8191-26d65a28eaec:
+    cardThumbAlignment: end
+    cardView:
+      - defaultSku
+      - defaultPrice
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\commerce\fieldlayoutelements\ProductTitleField
+            uid: 65c4fd08-12fa-4299-91b5-aaa617870de5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: f85c7165-6da7-44a9-928c-57095d6f6cfe # Single: Rich Text
+            handle: shopDescription
+            includeInCards: false
+            instructions: null
+            label: 'Shop: Description'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c6f3ac6-1413-424b-8fda-52ea73f81943
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: fa611eaf-68fc-4c30-ba40-cf5bc4d0bcc0 # Shop: Facts
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 62fc4de5-1028-4df1-a951-46fc38098089
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 52e7cb9c-4308-40be-a6ed-288b87ea2d9f # Shop: Product Images
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4519e700-558b-4720-b90c-cfcb4ca6eef8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Info
+        uid: 2b2810ef-8366-4201-9695-35dc59443ff6
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 85289f84-343d-4142-b42a-e68c64d7f7b9 # Promotion Categories
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4d5dbb47-35c4-49d5-8e37-0d81ad89f4e9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Promotions
+        uid: d1439496-ae38-4789-afca-abc65f07a769
+        userCondition: null
+productTitleFormat: ''
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    hasUrls: true
+    template: shop/products/_product
+    uriFormat: 'shop/{slug}-{id}'
+skuFormat: ''
+variantTitleFormat: '{product.title}'

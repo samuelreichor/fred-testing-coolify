@@ -1,0 +1,32 @@
+color: null
+description: null
+fieldLayouts:
+  9783af17-f39a-4ba1-9c96-2cd97678f4dc:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-10-20T11:54:12+00:00'
+            dismissible: false
+            elementCondition: null
+            style: warning
+            tip: 'Available jobs will be displayed automatically'
+            type: craft\fieldlayoutelements\Tip
+            uid: 471f77bd-1f6d-4d6f-940e-092f3016edb3
+            userCondition: null
+        name: Content
+        uid: 08a341f6-4464-4ec5-b10a-b7572a55c35e
+        userCondition: null
+handle: block_jobs
+hasTitleField: false
+icon: null
+name: 'Block Jobs'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

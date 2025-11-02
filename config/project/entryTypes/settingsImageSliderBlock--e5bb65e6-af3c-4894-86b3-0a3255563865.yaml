@@ -1,0 +1,57 @@
+color: null
+description: null
+fieldLayouts:
+  e9f38511-f5ba-4a4c-a00e-8c5b036ce005:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 674b8645-5a09-44f1-9b6c-d7f73179886f # Show Caption
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Caption
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 781cbba9-2182-4a21-8893-d1922fe5aded
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 5c9b3f7d-b541-4f5a-b514-cfc65f52ef7b # Image Ratio
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Image Ratio'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 85f35711-01e8-40ee-a3c7-6aa052bbe415
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 822985cc-aa97-4232-9ff2-f11b789ecf01
+        userCondition: null
+handle: settingsImageSliderBlock
+hasTitleField: false
+icon: null
+name: 'Settings: Image Slider Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

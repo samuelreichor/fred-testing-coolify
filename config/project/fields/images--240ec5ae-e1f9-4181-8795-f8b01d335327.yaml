@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: images
+instructions: Bild(er)
+name: Images
+searchable: true
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 5ab37415-136b-4df6-af48-c968476359b6 # Newsletter Content Builder - Bild(er) - Bild(er) Block
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: isLessSpacingAbove
+instructions: null
+name: 'Setting: Less Spacing Above'
+searchable: false
+settings:
+  default: false
+  offLabel: Default
+  onLabel: 'Less Space Above'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

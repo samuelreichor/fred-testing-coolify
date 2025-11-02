@@ -1,0 +1,16 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 5562ffb1-8443-4317-ba0a-da5265bdafa4 # Entry: Globals
+handle: globals
+maxAuthors: 1
+name: Globals
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single

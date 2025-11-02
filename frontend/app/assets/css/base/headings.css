@@ -1,0 +1,13 @@
+/*
+ |--------------------------------------------------------------------------
+ |  Headings
+ |--------------------------------------------------------------------------
+ */
+
+.headline-root:is(h1,h2,h3,h4,h5,h6),
+.ck.ck-content :is(h1,h2,h3,h4,h5,h6),
+.c-text--richText :is(h1,h2,h3,h4,h5,h6) {
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    font-weight: 500;
+}

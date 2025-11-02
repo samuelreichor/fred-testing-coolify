@@ -1,0 +1,18 @@
+description: null
+handle: shop
+name: Shop
+permissions:
+  - accesscp
+  - accesscpwhensystemisoff
+  - accessplugin-commerce
+  - accesssitewhensystemisoff
+  - 'commerce-createproducts:03362ae1-1b5d-4b72-bcbf-68f7589778a6' # Getränke
+  - 'commerce-createproducts:642bb893-f27f-4d3b-8401-d7e1b11f146f' # Schreibwaren
+  - 'commerce-createproducts:ae7d98ce-f4fa-4aa1-bb36-2e3c6399d9dd' # Kleidung
+  - 'commerce-deleteproducts:03362ae1-1b5d-4b72-bcbf-68f7589778a6' # Getränke
+  - 'commerce-deleteproducts:642bb893-f27f-4d3b-8401-d7e1b11f146f' # Schreibwaren
+  - 'commerce-deleteproducts:ae7d98ce-f4fa-4aa1-bb36-2e3c6399d9dd' # Kleidung
+  - 'commerce-editproducttype:03362ae1-1b5d-4b72-bcbf-68f7589778a6' # Getränke
+  - 'commerce-editproducttype:642bb893-f27f-4d3b-8401-d7e1b11f146f' # Schreibwaren
+  - 'commerce-editproducttype:ae7d98ce-f4fa-4aa1-bb36-2e3c6399d9dd' # Kleidung
+  - commerce-manageorders

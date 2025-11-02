@@ -1,0 +1,127 @@
+color: null
+description: null
+fieldLayouts:
+  e8ab0a89-723a-406b-9858-03243d9730a5:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-10T10:49:21+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ec406909-d7df-4d21-9d07-4fd803945bc9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-10T10:49:21+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: cd8b0894-fd0b-4e94-a4a9-d4fa59d16c97 # Single: SEO Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 58505ba1-2254-413e-af83-f0e5934f3bcd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-10T10:49:21+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: f85c7165-6da7-44a9-928c-57095d6f6cfe # Single: Rich Text
+            handle: singleIntroText
+            includeInCards: false
+            instructions: null
+            label: 'Single: Intro Text'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 03074d41-0fec-4516-8b01-e68b183cda26
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 8fd910d7-45a9-4d7c-89e7-925137a02cb1
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T10:49:21+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 45592f62-5fb7-4bac-bf2c-9bf95b1d0992 # SEO Settings
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ccfa0d5f-303a-4b46-9936-d064ebfcbb15
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-10T10:49:21+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 07f85313-5d91-415c-9bd3-6cd0acf06af1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c2d4f95a-ee97-450f-b18b-f7f9f620bc16
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 68602286-b443-407e-81dc-550db12a5e79
+        userCondition: null
+handle: entry_newsletterTransaction
+hasTitleField: true
+icon: null
+name: 'Entry: Newsletter Transaction'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

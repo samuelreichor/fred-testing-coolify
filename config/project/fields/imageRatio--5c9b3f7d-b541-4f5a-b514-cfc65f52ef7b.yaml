@@ -1,0 +1,45 @@
+columnSuffix: null
+handle: imageRatio
+instructions: null
+name: 'Image Ratio'
+searchable: true
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Portrait
+        -
+          - value
+          - '3:4'
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Landscape
+        -
+          - value
+          - '16:9'
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

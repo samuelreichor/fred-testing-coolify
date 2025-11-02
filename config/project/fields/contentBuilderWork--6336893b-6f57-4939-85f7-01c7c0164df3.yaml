@@ -1,0 +1,109 @@
+columnSuffix: null
+handle: contentBuilderWork
+instructions: null
+name: 'Content Builder Work'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - bfdd8ca2-35d6-4716-8f16-120127bb8dbc # Block: Embed
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 17fd7dce-492b-46c0-9e31-1349ede5974d # Block: Headline
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 5fb03a9b-975c-4e05-adcf-ccfeeebeafec # Block: Button
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 875dae98-1d96-4528-a3d2-d5a72b4664d2 # Block: Image Cover
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - e11a89e5-c5c8-4f26-9faf-e9c202d9efc0 # Block: Image Double
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - e9cda3a8-9c3b-45e8-888f-98fa13cb219d # Block: Image Grid
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 996e77e7-6822-4714-af11-eede05096719 # Block: Image Slider
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 7ac911e0-9050-4a42-9973-4fd2254979d7 # Block: Rich Text
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 0f31b23d-9cf9-4af2-9177-da772cb61534 # Block: Quote
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - f235dba2-0daf-4092-a325-7d06f0485ec4 # Block: Image Grid Calculated (Deprecated)
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - eff1c786-4c77-49ca-b177-873fbd713465 # Block: Image Cover (Deprecated)
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: none
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

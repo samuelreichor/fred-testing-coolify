@@ -1,0 +1,57 @@
+color: null
+description: null
+fieldLayouts:
+  82fe740e-b1ea-46dd-a632-cf59afb501bd:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-24T07:11:37+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: f7689477-3139-43b8-915d-9b58388c7172 # Experience Level
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 02af5fba-e002-4c85-8915-bc904bd551f5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-24T08:49:59+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 4cde4e32-ef18-40ce-a95c-7c1eae8e653f # Salary Ranges
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d7196a5b-7d1d-440a-85f6-c22cf34fdb60
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: abe8cc8b-e89a-406b-bec9-351a47cdaa46
+        userCondition: null
+handle: block_salaryBand
+hasTitleField: false
+icon: null
+name: 'Block: Salary Band'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

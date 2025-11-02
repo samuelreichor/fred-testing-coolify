@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: groupedProjectImages
+instructions: null
+name: 'Grouped: Project Images'
+searchable: true
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 5d6e9ede-2fa7-4d9c-a100-6783d6b92ae8 # Grouped: Project Images Block
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: none
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,57 @@
+color: null
+description: null
+fieldLayouts:
+  ebf3724a-bc0a-4ee9-baea-d5045cddab95:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:07:31+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3ef9aa49-1347-43d9-ab83-e5d017f535f6 # Single: Headline
+            handle: singleLabel
+            includeInCards: false
+            instructions: null
+            label: 'Single: Label'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 79e2a358-6dec-4d41-8d83-577f87f7d633
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-18T12:50:34+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: f85c7165-6da7-44a9-928c-57095d6f6cfe # Single: Rich Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7c9bbc0f-0570-4142-8066-e199b4a6d3e1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 21e6144c-54aa-4966-b04a-fc2f525367fa
+        userCondition: null
+handle: block_accordionContent
+hasTitleField: false
+icon: null
+name: 'Block: Accordion Content'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{singleLabel}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,63 @@
+color: null
+description: null
+fieldLayouts:
+  934e22cd-3523-47d2-90e4-00c8ed3c6aff:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:10:04+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: a68296a9-b5fa-450a-a6c3-2a92ddac6bb3 # Single: Images
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b13ea0c9-8bb9-451d-a5c3-f8f29e46f38e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e3561e7f-1107-4027-9ae5-5d066dbfb4a0
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:10:04+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: cd018358-a1a4-40d0-a332-1cba4dfbc14e # Settings: Image Slider
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b9277d36-7ec7-407f-a6c6-2a07e31e2acd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: f2478718-45cf-441e-b50e-488a76aea284
+        userCondition: null
+handle: block_imageSlider
+hasTitleField: false
+icon: null
+name: 'Block: Image Slider'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

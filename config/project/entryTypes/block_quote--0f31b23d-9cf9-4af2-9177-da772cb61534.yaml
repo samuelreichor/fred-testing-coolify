@@ -1,0 +1,74 @@
+color: null
+description: null
+fieldLayouts:
+  a599179e-1d2e-4f60-9f92-3f7527fb8ef8:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:12:03+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 717862d4-82be-413f-8ab2-03d6515f6b2e # Single: Quote
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Quote
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 063a4a52-fa39-4270-afc8-af9c341bfeff
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-10T11:12:03+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3ef9aa49-1347-43d9-ab83-e5d017f535f6 # Single: Headline
+            handle: singleSource
+            includeInCards: false
+            instructions: null
+            label: 'Quote Name'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 086a1f38-78f0-455b-a0ea-878df83eff0b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-10T11:12:03+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 28ac9431-3120-41a6-a177-85a8f047d82f # Single: Source Url
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Quote Link'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b74dbf85-1830-4089-9edd-0f5c996776ee
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a921a63d-68b2-4d8f-9e98-cd0253419b5e
+        userCondition: null
+handle: block_quote
+hasTitleField: false
+icon: null
+name: 'Block: Quote'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,69 @@
+columnSuffix: null
+handle: contentBuilderNewsletter
+instructions: 'Baukasten: zum Aufbau des Newsletter Inhaltes'
+name: 'Content Builder Newsletter '
+searchable: true
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - c89e2ff5-db32-45fa-8ad0-4251e562ccd0 # Block: Headline
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 2f17818f-debd-4615-bf25-0c47be6d2d46 # Block: Text
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 02898048-de28-4355-a3b4-fa215902d8bf # Block: Images
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 31350cc1-b123-4331-8a1a-41d98ef24ad0 # Block: Link
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 0f3cdfaa-a2e7-423e-8c15-efe664d09c2f # Entry Teaser
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - b87e9952-e616-4486-a5fd-d3fe87b3d1f8 # Block: Backstage
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

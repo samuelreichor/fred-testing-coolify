@@ -1,0 +1,57 @@
+color: null
+description: null
+fieldLayouts:
+  52d2feb8-1dce-43bb-b27f-a2041544b230:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 6c309da0-b686-4525-9228-a816b6fdfea4 # Settings: ButtonGroup - Style
+            handle: style
+            includeInCards: true
+            instructions: null
+            label: Style
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8e7af404-8b4c-42c0-9a22-f47ecc065c9e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 006f2f65-036f-4194-9eb3-40aab320f0a7 # Settings: ButtonGroup - Alignment
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Alignment
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ada6576f-8e9f-4e84-a289-e05e9f8d28fd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ba9f7b05-f450-4585-a213-d0be2cafae18
+        userCondition: null
+handle: settingsButtonGroupBlock
+hasTitleField: false
+icon: null
+name: 'Settings: ButtonGroup Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

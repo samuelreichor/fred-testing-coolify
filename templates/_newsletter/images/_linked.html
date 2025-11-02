@@ -1,0 +1,308 @@
+{# -- Set Defaults -- #}
+{% set defaults = {
+  cn: 'emailImages',
+  modifiers: [],
+  customClasses: [],
+  data: {},
+  js: null,
+  images: null,
+  caption: null,
+  ratio: null,
+  teaser: null,
+  spacingBottom: null,
+  backstage: null,
+} %}
+
+{# -- Merge Default with Options -- #}
+{% set opt = opt is defined ? defaults|merge(opt) : defaults %}
+{% set layout = opt.images | length > 1 ? 'moreColumns' : 'oneColumn' %}
+
+{% if opt.images %}
+
+  {% if layout == 'oneColumn' %}
+    {% for imageRow in opt.images %}
+
+      {% set image = imageRow.image.one() %}
+      {% set imageLink = imageRow.linkInfo.url ??? null %}
+
+      {% if not image.extension == 'gif' %}
+        {% if opt.ratio and opt.ratio == 'square' %}
+          {% set source = craft.imager.transformImage(image, { width: 700 }, { ratio: 1/1 }) %}
+        {% else %}
+          {% set source = craft.imager.transformImage(image, { width: 700 }, { ratio: 16/10 }) %}
+        {% endif %}
+      {% else %}
+        {% set source = image.url %}
+      {% endif %}
+
+      <!--[if mso | IE]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width:700px;"
+             width="700">
+        <tr>
+          <td style="vertical-align:top;">
+      <![endif]-->
+      <div style="margin:0px auto;max-width:700px;">
+
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class=""
+               style="width:100%;max-width:700px;background-color:#ffffff;" width="100%">
+          <tr>
+            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+
+              <!--[if mso | IE]>
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center"
+                     style="width:700px;" width="700">
+                <tr>
+                  <td style="vertical-align:top;">
+              <![endif]-->
+
+              <div style="margin:0px auto;max-width:700px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                       style="width:100%;">
+                  <tbody>
+                  <tr>
+                    <td style="direction:ltr;font-size:0px;text-align:center;">
+
+                      <!--[if mso | IE]>
+                      <table role="presentation" border="0" cellpadding="0" cellspacing="0"
+                             style="width:700px;" width="700">
+                        <tr>
+                          <td style="vertical-align:top;max-width:700px;width:100%;">
+                      <![endif]-->
+
+                      <div class="mj-column-per-100 outlook-group-fix"
+                           style="font-size:0px;text-align:center;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                               style="vertical-align:top;" width="100%">
+                          <tr>
+                            <td align="center" class="no-padding-left-right"
+                                style="font-size:0px;padding:10px 10px; {% if opt.spacingBottom %} padding-bottom:54px;{% else %}padding-bottom: 14px;{% endif %}word-break:break-word;">
+
+                              <!--[if mso | IE]>
+                              <table role="presentation" border="0" cellpadding="0"
+                                     cellspacing="0">
+                                <tr>
+                                  <td style="vertical-align:top;">
+                              <![endif]-->
+
+                              <table border="0" cellpadding="0" cellspacing="0"
+                                     role="presentation"
+                                     style="border-collapse:collapse;border-spacing:0px;">
+                                <tbody>
+                                <tr>
+                                  <td style="width:100%;">
+                                    {% if imageLink %}
+                                    <a href="{{ imageLink }}" target="_blank">
+                                    {% endif %}
+
+                                    <img height="auto"
+                                      {% if '://' in source %}
+                                        src="{{ source }}"
+                                      {% else %}
+                                        src="{{ siteUrl ~ source }}"
+                                      {% endif %}
+                                         style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;max-width:680px;font-size:13px;"
+                                         width="680"/>
+
+                                    {% if imageLink %}
+                                    </a>
+                                    {% endif %}
+                                  </td>
+                                </tr>
+                                </tbody>
+                              </table>
+
+                              <!--[if mso | IE]>
+                              </td>
+                              </tr>
+                              </table>
+                              <![endif]-->
+
+                            </td>
+                          </tr>
+                        </table>
+
+                      </div>
+
+                      <!--[if mso | IE]>
+                      </td>
+                      </tr>
+                      </table>
+                      <![endif]-->
+
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+
+              </div>
+              <!--[if mso | IE]>
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center"
+                     style="width:700px;" width="700">
+                <tr>
+                  <td style="vertical-align:top;">
+              <![endif]-->
+
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!--[if mso | IE]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+    {% endfor %}
+  {% else %}
+    <!--[if mso | IE]>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width:700px;"
+           width="700">
+      <tr>
+        <td style="vertical-align:top;">
+    <![endif]-->
+
+    <div style="margin:0px auto;max-width:700px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0"
+             style="max-width:700px;width:100%;background-color:#ffffff;">
+        <tbody>
+        <tr>
+          <td style="direction:ltr;font-size:0px;padding:0;text-align:left;">
+
+            <!--[if mso | IE]>
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0"
+                               style="width:700px;" width="700">
+                            <tr>
+                                <td style="vertical-align:top;max-width:700px;width:100%; {% if opt.spacingBottom %}padding-bottom: 54px;{% else %}padding-bottom: 11px;{% endif %} {% if opt.backstage %}padding-top: 10px;{% endif %}">
+                        <![endif]-->
+
+            <div class="mj-column-per-100 outlook-group-fix"
+                 style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+
+              <div class="mj-column-per-100-inner"
+                   style="{% if opt.spacingBottom %}padding-bottom: 54px;{% else %}padding-bottom: 11px;{% endif %} {% if opt.backstage %}padding-top: 10px;{% endif %}">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                       style="max-width:700px;vertical-align:top;"
+                       width="100%">
+                  <tr>
+                    <td style="direction:ltr;font-size:0px;text-align:center;">
+
+
+                      <!--[if mso | IE]>
+                      <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td style="vertical-align:top;">
+                      <![endif]-->
+
+                      {% for imageRow in opt.images %}
+
+                        {% set image = imageRow.image.one() %}
+                        {% set imageLink = imageRow.linkInfo.url ??? null %}
+
+                        {% if image.extension == 'gif' %}
+                          {% set source = image.url %}
+                        {% else %}
+                          {% if opt.ratio and opt.ratio == 'square' %}
+                            {% set source = craft.imager.transformImage(image, { width: 700 }, { ratio: 1/1 }) %}
+                          {% else %}
+                            {% set source = craft.imager.transformImage(image, { width: 700 }, { ratio: 16/10 }) %}
+                          {% endif %}
+                        {% endif %}
+
+                        <div
+                          class="{% if opt.images | length == 2 %} mj-column-per-50 {% else %} mj-column-per-30 {% endif %}"
+                          style="font-size:0px;text-align:center;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0"
+                                 role="presentation"
+                                 style="vertical-align:top;" width="100%">
+                            <tr>
+                              <td align="center"
+                                  style="font-size:0px;padding: 0 5px 5px 5px;word-break:break-word;"
+                                  class="{% if loop.first %} no-padding-left{% endif %} {% if loop.last %} no-padding-right{% endif %}
+                                                                    {% if opt.images | length == 3 and loop.index == 2 %} less-padding-img-mobile{% endif %}">
+
+                                <!--[if mso | IE]>
+                                <table role="presentation" border="0" cellpadding="0"
+                                       cellspacing="0">
+                                  <tr>
+                                    <td style="vertical-align:top;">
+                                <![endif]-->
+
+
+                                <table border="0" cellpadding="0" cellspacing="0"
+                                       role="presentation"
+                                       style="border-collapse:collapse;border-spacing:0px;"
+                                       width="100%">
+                                  <tbody>
+                                  <tr>
+                                    <td style="width:100%;">
+                                      {% if imageLink %}
+                                        <a href="{{ imageLink }}" target="_blank">
+                                      {% endif %}
+
+                                      <img height="auto"
+                                        {% if '://' in source %}
+                                          src="{{ source }}"
+                                        {% else %}
+                                          src="{{ siteUrl ~ source }}"
+                                        {% endif %}
+                                           style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;max-width:340px;font-size:13px;"
+                                        {% if opt.images | length == 2 %} width="340" {% else %} width="223" {% endif %} />
+
+                                      {% if imageLink %}
+                                        </a>
+                                      {% endif %}
+                                    </td>
+                                  </tr>
+                                  </tbody>
+                                </table>
+
+
+                                <!--[if mso | IE]>
+                                </td>
+                                </tr>
+                                </table>
+                                <![endif]-->
+
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+
+                        <!--[if mso | IE]>
+                        </td>
+                        <td style="vertical-align:top;">
+                        <![endif]-->
+                      {% endfor %}
+                      <!--[if mso | IE]>
+                      </td>
+                      </tr>
+                      </table>
+                      <![endif]-->
+
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+
+
+            </div>
+            <!--[if mso | IE]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+  {% endif %}
+{% endif %}
+

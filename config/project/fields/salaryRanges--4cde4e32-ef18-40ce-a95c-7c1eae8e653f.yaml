@@ -1,0 +1,75 @@
+columnSuffix: null
+handle: salaryRanges
+instructions: null
+name: 'Salary Ranges'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Einsteiger:in'
+            -
+              - handle
+              - learning
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Erfahren
+            -
+              - handle
+              - proficient
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col3
+        -
+          __assoc__:
+            -
+              - heading
+              - Oberguru
+            -
+              - handle
+              - mastering
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - '2.800 -  3.150'
+        -
+          - col2
+          - '3.150 - 3.850'
+        -
+          - col3
+          - 'Sags Uns'
+  maxRows: null
+  minRows: null
+  staticRows: true
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

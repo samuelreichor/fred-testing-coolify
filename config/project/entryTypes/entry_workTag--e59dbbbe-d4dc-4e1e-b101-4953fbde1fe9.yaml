@@ -1,0 +1,53 @@
+color: null
+description: null
+fieldLayouts:
+  88e64437-3ac6-4c93-be79-a38f331207e4:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: b63345ff-b685-451e-a774-f36374460498
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 67116e95-af75-4a1c-a998-e0a578ba84f2
+        userCondition: null
+handle: entry_workTag
+hasTitleField: true
+icon: null
+name: 'Entry: Work Tag'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

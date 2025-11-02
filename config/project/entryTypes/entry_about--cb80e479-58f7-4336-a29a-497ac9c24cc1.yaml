@@ -1,0 +1,217 @@
+color: null
+description: null
+fieldLayouts:
+  aeaac5f9-0efc-411b-915d-c5a0ff741a29:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-10T10:48:49+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 6c548d61-b459-41ab-b6cb-9197edac155c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-09T15:36:03+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: d28c4e51-7c51-4d3e-bcf7-19a48ae0c49c # Text Hero
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c69463e6-ad8d-4260-b1e1-7d943a13e15b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-20T13:13:24+00:00'
+            dismissible: false
+            elementCondition: null
+            style: warning
+            tip: 'Team members are separated in two blocks and automatically populated from Channels -> Team'
+            type: craft\fieldlayoutelements\Tip
+            uid: 95fb3b41-31c8-40fa-b0d1-139107d14ea9
+            userCondition: null
+          -
+            dateAdded: '2025-10-20T13:09:05+00:00'
+            dismissible: false
+            elementCondition: null
+            style: tip
+            tip: 'First Team Block'
+            type: craft\fieldlayoutelements\Tip
+            uid: ddde4941-b15c-4d4f-8342-1500358bb883
+            userCondition: null
+          -
+            dateAdded: '2025-10-20T13:06:58+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 0c2613d8-abac-4fa7-856a-14f3eda4b9f8 # Richtext Simple
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Text between Team-Blocks'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 80d521ce-4e77-4f43-acde-1845e972ef61
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-20T13:13:24+00:00'
+            dismissible: false
+            elementCondition: null
+            style: tip
+            tip: 'Second Team Block'
+            type: craft\fieldlayoutelements\Tip
+            uid: b41e6793-2c90-4bbc-86b1-605ab3923112
+            userCondition: null
+          -
+            dateAdded: '2025-10-20T13:06:58+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: f85c7165-6da7-44a9-928c-57095d6f6cfe # Single: Rich Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Text at the bottom'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a44740d6-f3fd-42a3-8c24-1cd8dfcbc831
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-20T13:06:58+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 03ec844b-0942-4f17-b324-e3bc6c33519f
+            userCondition: null
+          -
+            dateAdded: '2025-10-20T13:53:14+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 7134318e-f023-441a-89c2-d00b77108218 # FAQs
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8307333c-d7b6-4e32-a627-066e95341d9e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ed791f7a-b595-4e8c-b07d-8573c099e64e
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-19T08:31:39+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 200d500a-5b24-4779-89db-c62a7e2e1c25 # Entry Settings
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: afc33d85-d7f2-4d94-9bd1-aeddc19e114b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: 5ce130d2-79ce-4a2e-986c-3e43ce7e98b8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T10:48:49+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 45592f62-5fb7-4bac-bf2c-9bf95b1d0992 # SEO Settings
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9c169525-069d-450f-9e0a-70691076da69
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-10T10:48:49+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 07f85313-5d91-415c-9bd3-6cd0acf06af1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 968f3283-6400-4d8c-9639-3e444b54e53f
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 18c32681-1b3c-4a5b-bfbe-9355e2a189ad
+        userCondition: null
+handle: entry_about
+hasTitleField: true
+icon: null
+name: 'Entry: About'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

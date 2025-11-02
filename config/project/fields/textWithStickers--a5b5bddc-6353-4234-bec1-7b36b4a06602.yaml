@@ -1,0 +1,65 @@
+columnSuffix: null
+handle: textWithStickers
+instructions: null
+name: 'Text with Stickers'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 436cbd57-870d-4f17-bcff-ff7b1bbda867
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Content
+                    1:
+                      - uid
+                      - 66bd9a37-ca78-4096-95de-a8a960c59eac
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - desktopText
+                            2:
+                              - label
+                              - Text
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-10-08T13:27:14+00:00'
+                            11:
+                              - uid
+                              - bb37db66-df55-4674-8158-443ea34d01c0
+                            14:
+                              - fieldUid
+                              - 0c2613d8-abac-4fa7-856a-14f3eda4b9f8 # Richtext Simple
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: inline
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

@@ -1,0 +1,80 @@
+color: null
+description: "Please don't use this field. Use Block Image Single instead."
+fieldLayouts:
+  25b3a6b2-9cba-4b90-9185-35c60b8bfddb:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:09:58+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3f8d6749-4752-43ac-8c4b-c114bdb261dd # Single: Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cf9e875d-b5b5-4ea0-a7a8-e1722e063652
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-10T11:09:58+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3ef9aa49-1347-43d9-ab83-e5d017f535f6 # Single: Headline
+            handle: singleText
+            includeInCards: false
+            instructions: null
+            label: 'Single: Text'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1a7f554f-65d3-4113-bba9-bdc127f1706e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0cf3ef43-5b37-4d31-b386-ff305073e95c
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:09:58+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 209881bb-a426-47e6-aaa2-79354a549e58 # Settings: Image Cover
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 613c9a35-a660-451f-bdbd-c7b19ec47d8b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: 7bfb969a-4766-4726-a18c-f4bf48a0f798
+        userCondition: null
+handle: block_imageCoverDeprecated
+hasTitleField: false
+icon: null
+name: 'Block: Image Cover (Deprecated)'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

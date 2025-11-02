@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: de
+hasUrls: true
+language: de
+name: 'Fredmansky (de)'
+primary: true
+siteGroup: 0b80271d-cd0f-4bb9-919f-1ddfa8d7e8ce # Fredmansky (de)
+sortOrder: 1

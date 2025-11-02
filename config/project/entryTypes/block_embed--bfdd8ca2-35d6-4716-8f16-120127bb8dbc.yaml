@@ -1,0 +1,63 @@
+color: null
+description: null
+fieldLayouts:
+  314914f9-76fb-422b-8925-3dda6c168c06:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:07:44+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 991258ec-3bf6-445b-a700-ceeeb9d03837 # Headline
+            handle: singleEmbedCode
+            includeInCards: false
+            instructions: "Vimeo embed loop, autoplay, HQ: \r\n`<iframe src=\"https://player.vimeo.com/video/___ID___?autoplay=1&loop=1&autopause=0&quality=1080p&muted=1&background=1&playsinline=1&quality=1080p\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>`"
+            label: 'Single: Embed Code'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3b0215e7-1552-4b04-a145-e958a01a9f82
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 816359fa-1035-4fd0-b014-482288379aca
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:07:44+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e53396bc-f7a9-48f6-b84d-d0688ec3e36c # Settings: Embed
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0d4af9c5-36ec-4f31-9ae2-7f7f5fa5b1a9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: 99da0984-e131-4764-b724-edaaf82e1377
+        userCondition: null
+handle: block_embed
+hasTitleField: false
+icon: null
+name: 'Block: Embed'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

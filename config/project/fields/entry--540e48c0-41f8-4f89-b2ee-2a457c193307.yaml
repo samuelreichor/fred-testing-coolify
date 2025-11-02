@@ -1,0 +1,28 @@
+columnSuffix: null
+handle: entry
+instructions: null
+name: 'Newsletter Content Builder - Entry Teaser - Entry'
+searchable: true
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  defaultPlacement: end
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSearchInput: true
+  showSiteMenu: true
+  showUnpermittedEntries: true
+  showUnpermittedSections: true
+  sources:
+    - 'section:222d6ea4-e3a8-4270-8dae-597e1c1f38d4' # Articles
+    - 'section:a54ab976-db3d-4c2f-9046-9fc5b67fca75' # Jobs
+    - 'section:40dc5d7c-524a-4527-aa32-9e6bddf371d1' # Work
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

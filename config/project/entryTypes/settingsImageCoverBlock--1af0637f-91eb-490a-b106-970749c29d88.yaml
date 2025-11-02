@@ -1,0 +1,74 @@
+color: null
+description: null
+fieldLayouts:
+  195790ea-e473-4aed-b00e-610a292f407e:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: bdd100ab-144e-4264-a75a-b5e6cb7c3350 # Settings: Image Cover - Background Position
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: 'Background Position'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0385f971-287a-4b16-a884-01ed2642e5f5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 332b34bc-c8e4-4ae5-8bc1-b4a1d403aaf2 # Settings: Image Cover - Text Vertical Position
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Text Vertical Position'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cdfa317e-41f8-47ad-94c3-7d0d8c50741d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 80e5dc50-61d7-4a7c-b1d9-8591cde2c6d9 # Settings: Image Cover - Text Alignment
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Text Alignment'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e73623bf-549b-4de1-8345-573f4040c618
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: eb475c6e-a31c-48ae-a87e-d39029dc3ffe
+        userCondition: null
+handle: settingsImageCoverBlock
+hasTitleField: false
+icon: null
+name: 'Settings: Image Cover Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

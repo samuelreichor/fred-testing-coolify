@@ -1,0 +1,91 @@
+color: null
+description: null
+fieldLayouts:
+  3fa79262-c8ae-45b3-ac4a-efc279362ab9:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-10-03T08:49:42+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: f631c1eb-757f-4676-ae1e-4b95aca793dc # Grouped: Project Images - Stage
+            handle: null
+            includeInCards: false
+            instructions: 'This is used for the hero image'
+            label: Stage
+            providesThumbs: true
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0ba0b59-0355-4ddf-bdeb-2b4e3a04a374
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-03T08:49:42+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 94e1b711-3183-4563-aadb-42e4334892fd # Grouped: Project Images - Grid Landscape
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: 'Grid Landscape'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9b838f97-a014-41bc-b573-d4ea286caaa9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-03T08:49:42+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c4e5f9fe-a418-4270-ba15-557c4967bcef # Grouped: Project Images - Grid Portrait
+            handle: null
+            includeInCards: false
+            instructions: 'This is used for the Image Slider (eg. Related Projects)'
+            label: 'Grid Portrait'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c3ac7fca-f559-4196-a655-9225788a9a01
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-03T08:49:42+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: fc4a520f-9b68-4fed-8258-d7d0a94ecf25 # Grouped: Project Images - Vimeo Video ID
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Vimeo Video ID'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b80445e2-71ed-4f0d-8ad5-a8015bb86f2d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bebc18d1-71b4-40d6-8efe-e9637541d13a
+        userCondition: null
+handle: groupedProjectImagesBlock
+hasTitleField: false
+icon: null
+name: 'Grouped: Project Images Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

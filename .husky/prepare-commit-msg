@@ -1,0 +1,55 @@
+# Check if the commit message starts with "fixup!" or "squash!"
+first_line=$(head -n 1 "$1")
+if echo "$first_line" | grep -qE '^(fixup|squash)!'; then
+  echo "Detected a fixup or squash commit. Skipping prepare-commit-msg hook."
+  exit 0
+fi
+
+# Check if we're in a rebase context
+if [ -d "$(git rev-parse --git-dir)/rebase-merge" ] || [ -d "$(git rev-parse --git-dir)/rebase-apply" ]; then
+  echo "Rebase detected. Skipping prepare-commit-msg hook."
+  exit 0
+fi
+
+branch_name=$(git rev-parse --abbrev-ref HEAD)
+
+# Check if branch name matches the pattern, e.g., sr/FHOOE-2323-feature, sr/FHOOE-676-696-404, sr/FHOOE-2323, FHOOE-2323
+if echo "$branch_name" | grep -qE '[A-Z]+-[0-9]+'; then
+
+  # Extract prefix and ticket numbers
+  prefix=$(echo "$branch_name" | grep -oE '[A-Z]+')
+  ticket_numbers=$(echo "$branch_name" | grep -oE '[0-9]+')
+
+  ticket_ids=""
+
+  # Format ticket IDs
+  for number in $ticket_numbers; do
+    if [ -n "$ticket_ids" ]; then
+      ticket_ids="$ticket_ids, ${prefix}-$number"
+    else
+      ticket_ids="${prefix}-$number"
+    fi
+  done
+
+  # Add ticket IDs or NOTICKET to commit message
+  if [ -w "$1" ]; then
+    {
+      echo ""
+      echo "${ticket_ids:-NOTICKET}"
+    } >> "$1" || { echo "Error writing to commit message file."; exit 1; }
+
+    echo "Added '${ticket_ids:-NOTICKET}' to commit message."
+  else
+    echo "Error: Commit message file '$1' is not writable or does not exist."
+    exit 1
+  fi
+else
+  echo "No matching branch pattern. Adding 'NOTICKET' to commit message."
+  if [ -w "$1" ]; then
+    {
+      echo ""
+      echo "NOTICKET"
+    } >> "$1" || { echo "Error writing 'NOTICKET' to commit message file."; exit 1; }
+    echo "Added 'NOTICKET' to commit message."
+  fi
+fi

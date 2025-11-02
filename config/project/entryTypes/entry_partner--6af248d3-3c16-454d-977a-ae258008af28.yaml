@@ -1,0 +1,70 @@
+color: null
+description: null
+fieldLayouts:
+  256834a6-4c53-47a8-aac7-1c3e809ea7a9:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: de940c1f-0048-4292-89a6-d1e453ebf487
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 4809fc72-a253-4c88-a581-94a15dbd07f5 # Single: Link
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 964b7045-edc0-4faf-9d47-55aea55c2bbb
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Tab 1'
+        uid: 81ba9733-2b73-4453-bf4b-4964f621a61e
+        userCondition: null
+handle: entry_partner
+hasTitleField: true
+icon: null
+name: 'Entry: Partner'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

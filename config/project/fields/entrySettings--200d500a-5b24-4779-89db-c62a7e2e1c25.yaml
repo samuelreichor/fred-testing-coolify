@@ -1,0 +1,59 @@
+columnSuffix: null
+handle: entrySettings
+instructions: null
+name: 'Entry Settings'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 1bba412c-cb04-4e5f-b96a-78b598ce4719
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Content
+                    1:
+                      - uid
+                      - 17ef71aa-c580-4395-9811-edffc5724d92
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-19T08:16:56+00:00'
+                            11:
+                              - uid
+                              - 663ff24c-281a-468a-9e22-da401ceed4a2
+                            14:
+                              - fieldUid
+                              - f61f0d84-0ee4-4092-9c5d-b50cc9d8bdc3 # Footer Top Text
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

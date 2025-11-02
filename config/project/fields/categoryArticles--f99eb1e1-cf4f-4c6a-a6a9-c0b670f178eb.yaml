@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: categoryArticles
+instructions: null
+name: 'Category: Articles'
+searchable: true
+settings:
+  allowSelfRelations: false
+  branchLimit: 1
+  defaultPlacement: end
+  maintainHierarchy: true
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSearchInput: true
+  showSiteMenu: true
+  showUnpermittedEntries: true
+  showUnpermittedSections: true
+  sources:
+    - 'section:660190df-e2e1-4a1a-a748-166223dac7c1' # Article Types
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

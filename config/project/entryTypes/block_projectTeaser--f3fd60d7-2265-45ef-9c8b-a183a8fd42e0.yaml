@@ -1,0 +1,40 @@
+color: null
+description: "Please don't use this module."
+fieldLayouts:
+  3879e289-ba89-42b6-ba43-d24ecf2f00e2:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:12:01+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: a4649231-c7ba-46a8-9364-3318b851eb77 # Grouped: Project Grid
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cca0cb0e-e8dc-422d-8c75-80606fe7fe53
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d7fc4824-6761-4b74-8cb2-a0d06ec36250
+        userCondition: null
+handle: block_projectTeaser
+hasTitleField: false
+icon: null
+name: 'Block: Project Teaser (Deprecated)'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

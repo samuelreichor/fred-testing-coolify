@@ -1,0 +1,63 @@
+color: null
+description: null
+fieldLayouts:
+  7d9afcff-fbcd-45b3-af64-e47790f5223a:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:09:56+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3ef9aa49-1347-43d9-ab83-e5d017f535f6 # Single: Headline
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0c66d36-e9eb-45af-bf3a-11d3562e8be2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bef11e27-f2eb-4460-a4fa-201f825294ee
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:09:56+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 0cc564f2-f3aa-4195-acfe-e2d440c35d1f # Settings: Headline
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5ac83e1d-3ba0-46fe-b1e9-ab0c6a01896c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: ab7d7637-4a21-4093-8c6a-c874b996ea8e
+        userCondition: null
+handle: block_headline
+hasTitleField: false
+icon: null
+name: 'Block: Headline'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

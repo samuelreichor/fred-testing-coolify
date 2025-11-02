@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 0c04ea28-cdf3-4a70-8fbb-0b2f68db45fd # Entry: Text Only
+  -
+    uid: 0fe77346-7eb6-4fa1-aa8c-1c798278c4c3 # Entry: Grid Image With Text
+  -
+    uid: 6fa2fc4f-6b46-4f0d-93bb-6d72d1e72006 # Entry: Embed
+  -
+    uid: 325ef2eb-f666-4ebc-a650-3a623520932e # Entry: No Content
+  -
+    uid: dd799f8d-1fa6-419b-b61c-b511afc094b1 # Entry: Grid Image
+handle: customStage
+maxAuthors: 1
+name: 'Custom Stage'
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: false
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel

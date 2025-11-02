@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: settingsImageDouble
+instructions: null
+name: 'Settings: Image  Double'
+searchable: true
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 3634d6d9-20d0-492d-8105-5e6830c093b3 # Settings: Image  Double Block
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

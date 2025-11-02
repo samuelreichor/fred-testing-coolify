@@ -1,0 +1,40 @@
+color: null
+description: "Please don't use this module."
+fieldLayouts:
+  58cccb26-c8c1-4d41-a217-d837f4e819df:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:12:06+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: f85c7165-6da7-44a9-928c-57095d6f6cfe # Single: Rich Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c63d4d3-d155-4b95-8485-c862e49a9fc1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 697de861-478d-4fed-9ad8-b2aace06da97
+        userCondition: null
+handle: block_richTextMarginals
+hasTitleField: false
+icon: null
+name: 'Block: Rich Text Marginals (Deprecated)'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

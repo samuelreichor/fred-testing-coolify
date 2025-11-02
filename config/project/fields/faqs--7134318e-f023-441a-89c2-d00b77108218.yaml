@@ -1,0 +1,88 @@
+columnSuffix: null
+handle: faqs
+instructions: null
+name: FAQs
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 69abf461-e968-4711-b533-d8877df558ef
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Content
+                    1:
+                      - uid
+                      - 67fa38f2-f5b4-4e9c-b58b-ed5934b334b8
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            2:
+                              - label
+                              - Headline
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-10-20T13:54:46+00:00'
+                            11:
+                              - uid
+                              - 258ca086-5e46-4ff4-b763-7ff206b0eed4
+                            14:
+                              - fieldUid
+                              - 3ef9aa49-1347-43d9-ab83-e5d017f535f6 # Single: Headline
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-10-20T13:53:04+00:00'
+                            11:
+                              - uid
+                              - f2456b44-204c-431a-9df6-1a8434007b55
+                            14:
+                              - fieldUid
+                              - ed42a3e7-58be-4c60-8fe5-faea28e43cd4 # Related FAQs
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: inline
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

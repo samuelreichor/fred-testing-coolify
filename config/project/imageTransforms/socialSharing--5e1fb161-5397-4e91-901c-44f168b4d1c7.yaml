@@ -1,0 +1,11 @@
+fill: null
+format: jpg
+handle: socialSharing
+height: 630
+interlace: none
+mode: crop
+name: 'Social Sharing'
+position: center-center
+quality: 82
+upscale: true
+width: 1200

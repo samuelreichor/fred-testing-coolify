@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: singleSeoTitle
+instructions: 'Dieses Feld überschreibt den Page-Title und wird als H1 auf der Seite ausgegeben.'
+name: 'Single: SEO Title'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 2
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

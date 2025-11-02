@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: settingsButtonGroup
+instructions: null
+name: 'Settings: ButtonGroup'
+searchable: true
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 6709c019-9bb8-4c24-a0f5-2ae0f5390eee # Settings: ButtonGroup Block
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

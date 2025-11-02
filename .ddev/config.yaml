@@ -1,0 +1,25 @@
+name: frdmsk-coolify
+type: craftcms
+docroot: web
+php_version: "8.2"
+nodejs_version: "20"
+webserver_type: nginx-fpm
+xdebug_enabled: false
+database:
+  type: mysql
+  version: "8.0"
+use_dns_when_possible: true
+composer_version: "2"
+corepack_enable: false
+upload_dirs:
+  - uploads
+router_http_port: "80"
+router_https_port: "443"
+web_extra_exposed_ports:
+  - name: nuxt
+    container_port: 4000
+    http_port: 4000
+    https_port: 4001
+hooks:
+  post-start:
+    - exec: "npm run dev || (rm -rf node_modules && npm install && npm run dev)"

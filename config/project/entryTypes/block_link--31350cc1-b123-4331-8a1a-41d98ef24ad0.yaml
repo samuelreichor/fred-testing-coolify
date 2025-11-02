@@ -1,0 +1,40 @@
+color: null
+description: null
+fieldLayouts:
+  f4f46e8f-4d44-4055-ae83-18b32f44f3f8:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:10:05+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 5c45da02-1b3e-4f32-8af6-d0cc4f561cb2 # Newsletter Content Builder - Link - Link
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Link
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a9c756fc-aec1-4b86-b0f0-8737329f171b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1edabcda-5c5f-4b78-b038-4da74cde9aed
+        userCondition: null
+handle: block_link
+hasTitleField: false
+icon: null
+name: 'Block: Link'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,15 @@
+bcc: admin@fredmansky.at
+cc: null
+enabled: true
+language: orderLanguage
+name: 'Notify Shop Owner'
+pdf: null
+plainTextTemplatePath: null
+recipientType: custom
+replyTo: null
+senderAddress: null
+senderName: null
+store: 184af154-e697-4361-b981-bd5a71a1bf6e # Primary Store
+subject: 'Neue Bestellung eingetroffen'
+templatePath: /emails/shop/shopOwnerNotification
+to: office@fredmansky.at

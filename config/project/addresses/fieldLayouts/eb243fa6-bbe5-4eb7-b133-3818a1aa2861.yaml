@@ -1,0 +1,117 @@
+cardThumbAlignment: end
+tabs:
+  -
+    elementCondition: null
+    elements:
+      -
+        autocapitalize: true
+        autocomplete: false
+        autocorrect: true
+        class: null
+        dateAdded: null
+        disabled: false
+        elementCondition: null
+        id: null
+        includeInCards: false
+        inputType: null
+        instructions: null
+        label: null
+        max: null
+        min: null
+        name: null
+        orientation: null
+        placeholder: null
+        providesThumbs: false
+        readonly: false
+        requirable: false
+        size: null
+        step: null
+        tip: null
+        title: null
+        type: craft\fieldlayoutelements\addresses\LabelField
+        uid: 55db6fbd-2862-46e7-b98f-b378c3d64226
+        userCondition: null
+        warning: null
+        width: 100
+      -
+        attribute: countryCode
+        dateAdded: null
+        elementCondition: null
+        id: null
+        includeInCards: false
+        instructions: null
+        label: null
+        orientation: null
+        providesThumbs: false
+        requirable: false
+        tip: null
+        type: craft\fieldlayoutelements\addresses\CountryCodeField
+        uid: d5faca98-6ee7-4225-abdb-056a5981a8d7
+        userCondition: null
+        warning: null
+        width: 100
+      -
+        dateAdded: null
+        elementCondition: null
+        includeInCards: true
+        instructions: null
+        label: null
+        providesThumbs: false
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\addresses\AddressField
+        uid: a8f0ac7a-5a66-451a-b047-e3b50af4e3bf
+        userCondition: null
+        warning: null
+      -
+        dateAdded: null
+        editCondition: null
+        elementCondition: null
+        fieldUid: 3dad324a-ff2d-48bd-ad3d-2bd22b4a9b6c # Phone Number
+        handle: null
+        includeInCards: false
+        instructions: null
+        label: null
+        providesThumbs: false
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\CustomField
+        uid: bc0f23fe-433b-40da-84c0-ed8839c9e2f2
+        userCondition: null
+        warning: null
+        width: 100
+      -
+        attribute: fullName
+        autocapitalize: true
+        autocomplete: false
+        autocorrect: true
+        class: null
+        dateAdded: null
+        disabled: false
+        elementCondition: null
+        id: null
+        includeInCards: false
+        inputType: null
+        instructions: null
+        label: null
+        max: null
+        min: null
+        name: null
+        orientation: null
+        placeholder: null
+        providesThumbs: false
+        readonly: false
+        requirable: true
+        required: false
+        size: null
+        step: null
+        tip: null
+        title: null
+        type: craft\fieldlayoutelements\FullNameField
+        uid: d16e6a5f-5ca1-4627-aeb3-4d4805c4446b
+        userCondition: null
+        warning: null
+        width: 100
+    name: Content
+    uid: e48e7f41-2dc3-4a76-b52a-611a12dc3745
+    userCondition: null

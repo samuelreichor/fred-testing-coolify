@@ -1,0 +1,397 @@
+
+{# -- Set Defaults -- #}
+{% set defaults = {
+    cn: 'emailHeader',
+    newsletterTitle: null,
+    previewText: null,
+    showPreviewLink: null,
+} %}
+
+{# -- Merge Default with Options -- #}
+{% set opt = opt is defined ? defaults|merge(opt) : defaults %}
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office" style="background: #fff;">
+<head>
+    <title>
+        Newsletter {{ opt.newsletterTitle }} | Fredmansky
+    </title>
+    <!--[if !mso]><!-- -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <style type="text/css">
+
+    @media only screen {
+        html {
+            min-height: 100%;
+            background: #fff;
+        }
+    }
+
+    #outlook a {
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        font-family: Helvetica, Arial;
+    }
+
+    table, td {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+    }
+
+    h1 {
+        font-family: Helvetica, Arial;
+        text-align: left;
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: bold;
+        letter-spacing: -0.16px;
+        margin: 0;
+        color: #000 !important;
+    }
+
+    h2 {
+        font-family: Helvetica, Arial;
+        text-align: left;
+        font-size: 28px;
+        line-height: 31px;
+        font-weight: bold;
+        letter-spacing: -0.16px;
+        margin: 0;
+        color: #000 !important;
+
+    }
+
+    h3 {
+        font-family: Helvetica, Arial;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0;
+        color: #000 !important;
+    }
+
+    td {
+        padding: 0;
+    }
+
+    ol li {
+      font-family: 'Helvetica', 'Arial' !important;
+      color: #000 !important;
+      font-size: 16px;
+    }
+
+    ul li {
+      font-family: 'Helvetica', 'Arial' !important;
+      color: #000 !important;
+      font-size: 16px;
+    }
+
+    bold, strong {
+        font-weight: bold;
+    }
+
+    i {
+        font-style: italic;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+        font-family: 'Helvetica', 'Arial' !important;
+    }
+
+    .link--grey a {
+        color: #9a9a9a !important;
+        text-decoration: underline !important;
+    }
+
+    .link--black a {
+        color: #000 !important;
+    }
+
+    .link-small {
+        font-size: 12px !important;
+    }
+
+    .link-small a {
+        font-size: 12px !important;
+    }
+
+    img {
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+    }
+
+    p {
+        display: block;
+        margin: 10px 0;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: 'Helvetica', 'Arial' !important;
+        color: #000 !important;
+    }
+
+    span {
+        font-family: 'Helvetica', 'Arial' !important;
+    }
+
+    td p:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .mj-column-per-100-inner {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .mj-column-per-50 {
+        width: 50% !important;
+        max-width: 50%;
+    }
+
+    .mj-column-per-30 {
+        width: 33.33% !important;
+        max-width: 33.33%;
+    }
+
+    @media only screen and (min-width: 480px) {
+        h1 {
+            font-size: 45px;
+            line-height: 45px;
+        }
+
+        h2 {
+            font-size: 38px;
+            line-height: 45px;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        ol li,
+        ul li,
+        p {
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+
+    td.footer-location {
+        display: inline-block;
+        width: 46%;
+    }
+
+    @media only screen and (max-width: 480px) {
+        table.full-width-mobile {
+            width: 100% !important;
+        }
+
+        td.full-width-mobile {
+            width: auto !important;
+        }
+
+        img {
+            max-width: none !important;
+        }
+
+        td.mobile-padding-left {
+            padding-left: 10px !important;
+        }
+
+        td.footer-location {
+            display: inline-block;
+            min-width: 280px;
+        }
+
+        td.no-padding-left {
+            padding-left: 0 !important;
+        }
+
+        td.no-padding-right {
+            padding-right: 0 !important;
+        }
+
+        td.no-padding-left-right {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        td.less-padding-img-mobile {
+            padding-left: 2.5px !important;
+            padding-right: 2.5px !important;
+        }
+
+        .mj-column-per-100-inner {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    </style>
+    <!--[if mso]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type="text/css">
+    .outlook-group-fix {
+        width: 100% !important;
+    }
+    </style>
+    <![endif]-->
+</head>
+<body>
+
+
+<div style="display:none;font-size:1px;color:#000000;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;visibility:hidden;mso-hide:all;">
+    {{ opt.previewText }}
+</div>
+
+{% if opt.showPreviewLink %}
+<!--[if mso | IE]>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="max-width:700px;width:100%" width="700">
+    <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly; color: #9a9a9a; !important;">
+<![endif]-->
+
+<div style="margin:0px auto;max-width:700px;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+           style="width:100%;max-width:700px;background-color:#ffffff;">
+        <tr>
+            <td style="padding: 10px 20px;text-align: center">
+                <p style="color: #9a9a9a !important;font-size: 10px;margin:0 !important;font-family:Arial;" class="link--grey">
+                    Sieh dir den <a style="text-decoration:underline;color: #9a9a9a; !important;" href="{{ opt.browserVersionUrl }}">Newsletter im Browser</a> an, wenn er nicht korrekt dargestellt werden kann.
+                </p>
+            </td>
+        </tr>
+    </table>
+</div>
+<!--[if mso | IE]>
+</td>
+</tr>
+</table>
+<![endif]-->
+{% endif %}
+
+
+
+<!--[if mso | IE]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="max-width:700px;width:100%" width="700">
+    <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]-->
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" class=""
+       style="width:100%;max-width:700px;background-color:#ffffff;" width="100%">
+    <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+
+            <!--[if mso | IE]>
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="max-width:700px;width:100%" width="700">
+                <tr>
+                    <td style="vertical-align:top;">
+            <![endif]-->
+
+            <div style="margin:0px auto;max-width:700px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                       style="width:100%;">
+                    <tbody>
+                    <tr>
+                        <td style="direction:ltr;font-size:0px;text-align:center;">
+
+                            <!--[if mso | IE]>
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0"
+                                   style="width:700px;" width="700" align="center">
+                                <tr>
+                                    <td style="vertical-align:top;max-width:700px;width:100%;">
+                            <![endif]-->
+
+                            <div class="mj-column-per-100 outlook-group-fix"
+                                 style="font-size:0px;text-align:center;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                       style="vertical-align:top;width:100%;max-width:700px;" width="700">
+                                    <tr>
+                                        <td align="center"
+                                            style="font-size:0px;padding:30px 10px 55px 10px;word-break:break-word;">
+
+                                            <!--[if mso | IE]>
+                                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="max-width:700px;width:100%" width="700" align="center">
+                                                <tr>
+                                                    <td style="vertical-align:top;max-width:700px;width:100%;">
+                                            <![endif]-->
+
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                   role="presentation"
+                                                   style="border-collapse:collapse;border-spacing:0px;width: 100%;max-width: 700px;">
+                                                <tbody>
+                                                <tr>
+                                                    <td style="width:100%;">
+                                                        <img src="{{ currentSite.baseUrl }}assets/images/bitmap/newsletter/fredmansky-logo-outline_2x.png"
+                                                             style="border:0;display:block;outline:none;text-decoration:none;width:70px;height:68px;"
+                                                             width="70" height="68"/>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <!--[if mso | IE]>
+                                            </td>
+                                            </tr>
+                                            </table>
+                                            <![endif]-->
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </div>
+
+                            <!--[if mso | IE]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <!--[if mso | IE]>
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center"
+                   style="width:700px;" width="700">
+                <tr>
+                    <td style="vertical-align:top;">
+            <![endif]-->
+
+        </td>
+    </tr>
+</table>
+
+<!--[if mso | IE]>
+</td>
+</tr>
+</table>
+<![endif]-->

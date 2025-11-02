@@ -1,0 +1,57 @@
+color: null
+description: null
+fieldLayouts:
+  a3eb898d-a205-4f5d-a4c8-5c3d56770df8:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:12:17+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 0c2613d8-abac-4fa7-856a-14f3eda4b9f8 # Richtext Simple
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Text
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 18555e1e-5c04-4f39-b376-9f90feeacd81
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-10T11:12:17+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e5292c62-f36a-4a67-914e-88eac7fde687 # Newsletter Content Builder - Überschrift - Abstand nach unten
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Abstand nach unten'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7c9ae062-cedd-48c3-ae54-f70e2f5a9375
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5949de50-91ca-4518-b9d7-d3f6de36d2eb
+        userCondition: null
+handle: block_richTextNewsletter
+hasTitleField: false
+icon: null
+name: 'Block: Text'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

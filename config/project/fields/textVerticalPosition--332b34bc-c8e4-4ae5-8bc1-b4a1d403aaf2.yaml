@@ -1,0 +1,44 @@
+columnSuffix: null
+handle: textVerticalPosition
+instructions: null
+name: 'Settings: Image Cover - Text Vertical Position'
+searchable: true
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Top
+        -
+          - value
+          - top
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Center
+        -
+          - value
+          - center
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Bottom
+        -
+          - value
+          - bottom
+        -
+          - default
+          - 1
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

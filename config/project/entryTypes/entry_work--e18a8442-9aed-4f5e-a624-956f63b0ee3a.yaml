@@ -1,0 +1,167 @@
+color: null
+description: null
+fieldLayouts:
+  4e6cbdb5-f29c-47af-852c-d3138954290e:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-10T10:49:31+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 62e131af-acdc-40fe-8e93-1d8519655bbb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-20T05:44:22+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: d28c4e51-7c51-4d3e-bcf7-19a48ae0c49c # Text Hero
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b4220bc5-fe7a-4589-a1ec-378430d0c1e2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-14T13:43:55+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: aab66a18-eccb-4d87-9ce7-41dbac12dc72 # Content Builder
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0df414d3-3793-4d25-ac5a-7b456f24c3d7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-14T13:43:55+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: ed42a3e7-58be-4c60-8fe5-faea28e43cd4 # Related FAQs
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6ad0cb52-6b64-4c2c-8ac1-4bb2639b22bb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9cc4f3dc-a63f-4d50-9441-02b16897c7fa
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-19T08:39:44+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 200d500a-5b24-4779-89db-c62a7e2e1c25 # Entry Settings
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4af6a227-1795-491f-8801-f815cd15b2a3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: 9759b334-7f33-4f98-abe6-8ff7bd1415bd
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T10:49:31+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 45592f62-5fb7-4bac-bf2c-9bf95b1d0992 # SEO Settings
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 70232e22-4c11-4624-8478-946e44867d8c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-10T10:49:31+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 07f85313-5d91-415c-9bd3-6cd0acf06af1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f7372cb5-fede-4138-9b17-abf2ffb31de1
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: b87b478b-2744-453b-ab6d-1c35d3c02b4e
+        userCondition: null
+handle: entry_work
+hasTitleField: true
+icon: null
+name: 'Entry: Work'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

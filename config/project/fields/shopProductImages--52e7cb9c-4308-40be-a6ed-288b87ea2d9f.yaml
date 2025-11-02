@@ -1,0 +1,38 @@
+columnSuffix: null
+handle: shopProductImages
+instructions: null
+name: 'Shop: Product Images'
+searchable: true
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+    - video
+  branchLimit: null
+  defaultPlacement: end
+  defaultUploadLocationSource: 'volume:a625c679-6f75-4411-a9c0-2b7905be1063' # Shop: Images
+  defaultUploadLocationSubpath: null
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: true
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:a625c679-6f75-4411-a9c0-2b7905be1063' # Shop: Images
+  restrictedLocationSubpath: null
+  selectionLabel: 'Add an Image'
+  showCardsInGrid: false
+  showSearchInput: true
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
+  sources: '*'
+  targetSiteId: 9e4c5b10-0345-4257-a5a8-70987619b1b7 # Fredmansky (de)
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

@@ -1,0 +1,606 @@
+dateModified: 1761301884
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - link
+        - dateUpdated
+      type: native
+    -
+      key: singles
+      type: native
+    -
+      heading: Channels
+      key: 'heading:4e43feda-b209-452b-a3d7-d5e8b10b3c3e'
+      type: heading
+    -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:222d6ea4-e3a8-4270-8dae-597e1c1f38d4' # Articles
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+        - 'field:aebd8da1-118e-4342-8376-683fe51d1f70' # Single: Author
+        - id
+        - dateUpdated
+        - 'field:f99eb1e1-cf4f-4c6a-a6a9-c0b670f178eb' # Category: Articles
+      type: native
+    -
+      key: 'section:a54ab976-db3d-4c2f-9046-9fc5b67fca75' # Jobs
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+        - 'field:b631b9c3-37ac-417c-8e05-ac9ec0c75711' # Single: Job Location
+        - dateCreated
+        - dateUpdated
+      type: native
+    -
+      key: 'section:de9f415c-6141-4af4-a5f7-90f4e1c7c487' # Team
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+        - dateCreated
+        - dateUpdated
+        - 'field:9e0cfb90-d12f-41ab-91cc-b6b019cfe2f9'
+        - 'field:3d9c31b4-eca0-4fb8-9129-669c8a020005' # Single: Image Entry
+      type: native
+    -
+      heading: Structures
+      key: 'heading:5cb7b529-e22f-4170-805f-f000b2181ae6'
+      type: heading
+    -
+      key: 'section:ad6b7331-f1d3-44a9-b70f-24214262a47b' # Pages
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+        - dateUpdated
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:40dc5d7c-524a-4527-aa32-9e6bddf371d1' # Work
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+        - dateUpdated
+        - type
+        - 'field:aebd8da1-118e-4342-8376-683fe51d1f70' # Single: Author
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:d199b1f5-9270-4a24-bd7f-6d4708506528' # FAQs
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - authors
+        - link
+      type: native
+    -
+      heading: Partials
+      key: 'heading:62d2cc07-ab5c-4321-b76e-d24be325ee9a'
+      type: heading
+    -
+      key: 'section:929c3ed2-7b8a-4e3e-860d-87289b0843a6' # Custom Stage
+      type: native
+    -
+      heading: Categories
+      key: 'heading:1714e4ca-7403-4935-8edf-941f997773ff'
+      type: heading
+    -
+      key: 'section:f33a4fda-fb85-45e5-913a-b359cbafebe9' # Article Tags
+      type: native
+    -
+      key: 'section:660190df-e2e1-4a1a-a748-166223dac7c1' # Article Types
+      type: native
+    -
+      key: 'section:d424c57e-8f4c-4378-ab6f-e70c8d039489' # Award Types
+      type: native
+    -
+      key: 'section:e1e54d02-3746-4311-a614-328f8a6d5ed9' # Client
+      type: native
+    -
+      key: 'section:93297297-8001-4979-976a-a26b30908e1e' # Genders
+      type: native
+    -
+      key: 'section:9552d158-a89b-47ee-8d24-17d6138c0efc' # Partner
+      type: native
+    -
+      key: 'section:4876b305-29b9-46ea-a03b-10977aef0809' # Promotion Types
+      type: native
+    -
+      key: 'section:db2c50a4-a041-426b-80d7-786a270f991f' # Services
+      type: native
+    -
+      key: 'section:85b2fbdb-9500-435a-b28a-6fc42c209347' # Sizes
+      type: native
+    -
+      key: 'section:9ff99054-4a17-44a0-b383-334c097b1ec0' # Units
+      type: native
+    -
+      key: 'section:f4a76551-7ef9-4bab-a4e3-339aca409e23' # Work Tags
+      type: native
+    -
+      heading: ''
+      key: 'heading:e4732f8b-1e30-4985-a78c-9f1061e7acd6'
+      type: heading
+email:
+  fromEmail: office@fredmansky.at
+  fromName: 'fredmansky.at — website'
+  replyToEmail: office@fredmansky.at
+  template: ''
+  transportSettings:
+    apiKey: key-27eb4e4901f070c3543621c27d2ef804
+    domain: mails.fredmansky.com
+    endpoint: 'https://api.mailgun.net/v3/mails.fredmansky.com'
+  transportType: craft\mailgun\MailgunAdapter
+fs:
+  shopImages:
+    hasUrls: true
+    name: 'Shop: Images'
+    settings:
+      path: '@webroot/assets/shop'
+    type: craft\fs\Local
+    url: '@web/assets/shop'
+  siteDownloads:
+    hasUrls: true
+    name: 'Site Downloads'
+    settings:
+      path: '@webroot/assets/downloads'
+    type: craft\fs\Local
+    url: '@web/assets/downloads/'
+  siteGraphics:
+    hasUrls: true
+    name: 'Site Graphics'
+    settings:
+      path: '@webroot/assets/graphics'
+    type: craft\fs\Local
+    url: '@web/assets/graphics/'
+  siteImages:
+    hasUrls: true
+    name: 'Site Images'
+    settings:
+      path: '@webroot/assets/images'
+    type: craft\fs\Local
+    url: '@web/assets/images/'
+  siteUsers:
+    hasUrls: true
+    name: 'Site Users'
+    settings:
+      path: '@webroot/assets/users'
+    type: craft\fs\Local
+    url: '@web/assets/users/'
+  stickers:
+    hasUrls: true
+    name: Stickers
+    settings:
+      path: '@webroot/assets/stickers'
+    type: craft\fs\Local
+    url: $PRIMARY_SITE_URL/assets/stickers
+meta:
+  __names__:
+    0a2c22d7-cfe9-4cb0-919c-545f5c45ed2a: Default # Default
+    0a23214e-c6eb-43ae-ba97-6687d0c41bc2: 'Settings: Embed - Embed: Width' # Settings: Embed - Embed: Width
+    0b80271d-cd0f-4bb9-919f-1ddfa8d7e8ce: 'Fredmansky (de)' # Fredmansky (de)
+    0c04ea28-cdf3-4a70-8fbb-0b2f68db45fd: 'Entry: Text Only' # Entry: Text Only
+    0c6beed0-c301-4bcc-b324-87a47d76d1cc: 'Single: Code' # Single: Code
+    0c72df6e-cb8c-445e-bac7-8b4a5e65309a: 'Setting: Less Spacing Above' # Setting: Less Spacing Above
+    0c2613d8-abac-4fa7-856a-14f3eda4b9f8: 'Richtext Simple' # Richtext Simple
+    0cc564f2-f3aa-4195-acfe-e2d440c35d1f: 'Settings: Headline' # Settings: Headline
+    0f3cdfaa-a2e7-423e-8c15-efe664d09c2f: 'Entry Teaser' # Entry Teaser
+    0f31b23d-9cf9-4af2-9177-da772cb61534: 'Block: Quote' # Block: Quote
+    0fe1fe7e-9e1d-432b-9401-fa46118d05f4: Modules # Modules
+    0fe77346-7eb6-4fa1-aa8c-1c798278c4c3: 'Entry: Grid Image With Text' # Entry: Grid Image With Text
+    1af0637f-91eb-490a-b106-970749c29d88: 'Settings: Image Cover Block' # Settings: Image Cover Block
+    1b89cacb-835d-4dbf-9b6a-2bb9b2345cf4: 'Select Individual Entries' # Select Individual Entries
+    2ce3ba09-a1bf-4a19-bafd-421b3114a1e9: 'Settings: ButtonGroup' # Settings: ButtonGroup
+    2f17818f-debd-4615-bf25-0c47be6d2d46: 'Block: Text' # Block: Text
+    3a819bdd-b112-44be-ad32-24da0eb30309: 'Grouped: Project Grid - Doubles - Entries' # Grouped: Project Grid - Doubles - Entries
+    3b63b31e-2126-4b71-80fe-429d93bd4dcc: 'Location Images' # Location Images
+    3d9c31b4-eca0-4fb8-9129-669c8a020005: 'Single: Image Entry' # Single: Image Entry
+    3dad324a-ff2d-48bd-ad3d-2bd22b4a9b6c: 'Phone Number' # Phone Number
+    3ef9aa49-1347-43d9-ab83-e5d017f535f6: 'Single: Headline' # Single: Headline
+    3f8d6749-4752-43ac-8c4b-c114bdb261dd: 'Single: Image' # Single: Image
+    4cde4e32-ef18-40ce-a95c-7c1eae8e653f: 'Salary Ranges' # Salary Ranges
+    4dae41c9-860a-471f-acdc-d555c9937025: 'Shop: ReadableOrderNumber' # Shop: ReadableOrderNumber
+    4f46a293-b322-4b13-8166-869dcbcd4933: 'Ready for PickUp' # Ready for PickUp
+    4fd747f9-3594-44cb-bd20-d4816291205c: 'Category: Awards' # Category: Awards
+    5ab37415-136b-4df6-af48-c968476359b6: 'Newsletter Content Builder - Bild(er) - Bild(er) Block' # Newsletter Content Builder - Bild(er) - Bild(er) Block
+    5c9b3f7d-b541-4f5a-b514-cfc65f52ef7b: 'Image Ratio' # Image Ratio
+    5c45da02-1b3e-4f32-8af6-d0cc4f561cb2: 'Newsletter Content Builder - Link - Link' # Newsletter Content Builder - Link - Link
+    5d6e9ede-2fa7-4d9c-a100-6783d6b92ae8: 'Grouped: Project Images Block' # Grouped: Project Images Block
+    5d18dd59-cb21-4173-84f2-5dc8747832f6: 'Category: Client' # Category: Client
+    5e1fb161-5397-4e91-901c-44f168b4d1c7: 'Social Sharing' # Social Sharing
+    5e43c76e-1b53-49fb-a262-6dc5b5e7cc31: Shipped # Shipped
+    5fb03a9b-975c-4e05-adcf-ccfeeebeafec: 'Block: Button' # Block: Button
+    6af248d3-3c16-454d-977a-ae258008af28: 'Entry: Partner' # Entry: Partner
+    6b1f9f1a-191e-4f3c-985d-eaadff1533dd: 'Entry: Newsletter' # Entry: Newsletter
+    06b4e544-d92a-4b59-b046-97fbc59042c7: 'Newsletter Content Builder - Bild(er) - Bild(er) - Bild' # Newsletter Content Builder - Bild(er) - Bild(er) - Bild
+    6b444b4d-eb96-44f3-85b2-a707f17c63ce: 'Entry: Promotion Type' # Entry: Promotion Type
+    6bb5b892-a43d-494f-a28e-5d01c0d743be: 'Category: Unit' # Category: Unit
+    6c309da0-b686-4525-9228-a816b6fdfea4: 'Settings: ButtonGroup - Style' # Settings: ButtonGroup - Style
+    6cf16dcf-f649-464d-9be3-f40daefb1333: 'Settings: Image Grid - Columns' # Settings: Image Grid - Columns
+    6e728a6b-cf4a-4751-8ede-1c894986a3c0: 'Content Builder Newsletter ' # Content Builder Newsletter 
+    6ea0042c-9175-409d-8e9e-5653aac81b3d: 'Settings: Embed Block' # Settings: Embed Block
+    006f2f65-036f-4194-9eb3-40aab320f0a7: 'Settings: ButtonGroup - Alignment' # Settings: ButtonGroup - Alignment
+    6fa2fc4f-6b46-4f0d-93bb-6d72d1e72006: 'Entry: Embed' # Entry: Embed
+    7ac911e0-9050-4a42-9973-4fd2254979d7: 'Block: Rich Text' # Block: Rich Text
+    7e3d973b-6988-4797-8886-0106dc06d71a: 'Entry: Job' # Entry: Job
+    7e5957ee-a295-4bcf-a64f-1c8b7360e9c8: Redakteur # Redakteur
+    07ea13c8-c70a-43de-81d5-2904105386fe: 'Entry: Team' # Entry: Team
+    8c463bd6-07d0-4cea-ba35-33063a3a6780: 'Newsletter  Preview Text' # Newsletter  Preview Text
+    8f7efc74-2340-4272-aeda-5ed035ef86ed: 'Site Downloads' # Site Downloads
+    9b158906-f5b7-42c2-910b-086f7847f4a6: 'Social Sharing Twitter' # Social Sharing Twitter
+    09bb0e72-4675-43f9-b207-53be3c48a89d: 'Single: Code Language' # Single: Code Language
+    9d1a8865-03bb-4839-aa69-17e31ede8053: 'Entry: Pages' # Entry: Pages
+    9d3a3639-6bc0-4fdb-af04-12b5f72b317f: 'Block: FAQ' # Block: FAQ
+    9d276d4b-639f-4461-bc1c-59d6de7b1826: 'Grouped: Doubles' # Grouped: Doubles
+    9e4c5b10-0345-4257-a5a8-70987619b1b7: 'Fredmansky (de)' # Fredmansky (de)
+    9f5d3f6e-f709-441f-80f1-3fc8acf44df5: 'Grouped: Project Grid - Doubles - Style' # Grouped: Project Grid - Doubles - Style
+    9ff99054-4a17-44a0-b383-334c097b1ec0: Units # Units
+    15aa4d28-7f1c-412c-b08e-571000ff27c8: 'Entry: Gender' # Entry: Gender
+    15e5bc09-faa4-47af-94b9-0cb1657dcbe2: 'Grouped: Project Images' # Grouped: Project Images
+    17fd7dce-492b-46c0-9e31-1349ede5974d: 'Block: Headline' # Block: Headline
+    18ce4035-f866-4843-8748-e27173a3a8f8: Homepage # Homepage
+    25ce68be-0835-4824-a6bd-6dcfa65846c3: Simple # Simple
+    28ac9431-3120-41a6-a177-85a8f047d82f: 'Single: Source Url' # Single: Source Url
+    40dc5d7c-524a-4527-aa32-9e6bddf371d1: Work # Work
+    43c6662a-0266-4b0a-96c9-788115fd3172: Processing # Processing
+    43f7b25a-a871-4720-bc93-e713ed9510f4: 'Barzahlung bei Abholung' # Barzahlung bei Abholung
+    45fe35bb-4a14-4fd1-a65a-d9c9ee57f467: 'Grouped: Project Grid - Quadruplets - Entries' # Grouped: Project Grid - Quadruplets - Entries
+    51e3766b-5805-45eb-9140-a8bcb61048d5: 'Single: Button Group - Button' # Single: Button Group - Button
+    52e7cb9c-4308-40be-a6ed-288b87ea2d9f: 'Shop: Product Images' # Shop: Product Images
+    58bc10e4-5b32-4716-9f07-d336fae97efd: 'Block: Salary Band' # Block: Salary Band
+    76cf4a6a-31ae-453b-8c1d-e586968e8629: 'Newsletter Content Builder - Überschrift - Subline' # Newsletter Content Builder - Überschrift - Subline
+    80e5dc50-61d7-4a7c-b1d9-8591cde2c6d9: 'Settings: Image Cover - Text Alignment' # Settings: Image Cover - Text Alignment
+    82cbcace-42c7-4d76-b843-7fca05d8774c: 'Block: Code' # Block: Code
+    84ac7434-30ad-4a0b-af80-92be3627f6b7: 'Single: Image Double' # Single: Image Double
+    85b2fbdb-9500-435a-b28a-6fc42c209347: Sizes # Sizes
+    85c81615-f87f-4c32-b627-f95dac87150c: 'Entry: Size' # Entry: Size
+    86f1b20a-59ce-4490-a2a3-c3ff5d8bee52: Jobs # Jobs
+    89ebec9a-401b-406f-925b-8d39dd59a2cd: 'Grouped: Project Info Block' # Grouped: Project Info Block
+    90a4cf47-bc1f-453a-b62b-5b2bd78817df: 'Single: Button Group Block' # Single: Button Group Block
+    94e1b711-3183-4563-aadb-42e4334892fd: 'Grouped: Project Images - Grid Landscape' # Grouped: Project Images - Grid Landscape
+    94ec80ba-81e4-41f5-bbb3-7a34ef38ab5c: 'Tags: Articles' # Tags: Articles
+    181d68b2-2280-494c-b369-6265fe7a10c8: 'Newsletter Content Builder - Backstage - Bild(er) - Link' # Newsletter Content Builder - Backstage - Bild(er) - Link
+    184af154-e697-4361-b981-bd5a71a1bf6e: 'Primary Store' # Primary Store
+    200d500a-5b24-4779-89db-c62a7e2e1c25: 'Entry Settings' # Entry Settings
+    208ab3ca-885d-44a5-aa88-7b31cb15ba25: 'Block: Button Group (Deprecated)' # Block: Button Group (Deprecated)
+    222d6ea4-e3a8-4270-8dae-597e1c1f38d4: Articles # Articles
+    240ec5ae-e1f9-4181-8795-f8b01d335327: Images # Images
+    284a9b76-c57d-4875-b602-b1d7a28896ae: 'Newsletter Content Builder - Backstage - Link' # Newsletter Content Builder - Backstage - Link
+    325ef2eb-f666-4ebc-a650-3a623520932e: 'Entry: No Content' # Entry: No Content
+    332b34bc-c8e4-4ae5-8bc1-b4a1d403aaf2: 'Settings: Image Cover - Text Vertical Position' # Settings: Image Cover - Text Vertical Position
+    334a89ca-95f3-4052-be56-9ec5dd34c24c: 'Entry: Newsletter Transaction' # Entry: Newsletter Transaction
+    438dd4c5-69eb-4040-b731-318c76223739: 'Entry: Case Study' # Entry: Case Study
+    540e48c0-41f8-4f89-b2ee-2a457c193307: 'Newsletter Content Builder - Entry Teaser - Entry' # Newsletter Content Builder - Entry Teaser - Entry
+    546d57ed-a4ed-4063-8681-b11812f127a6: Page # Page
+    567eb8d6-b11f-41ee-a706-b162dc7e7e1c: 'Category: Service' # Category: Service
+    0577b5fa-17cc-4db7-a0a9-3d34aa1dff54: 'Layout Image Grid' # Layout Image Grid
+    642bb893-f27f-4d3b-8401-d7e1b11f146f: Schreibwaren # Schreibwaren
+    657b404e-1961-40ee-a7b1-8f47ddea9b02: 'Global: Locations - Address' # Global: Locations - Address
+    674b8645-5a09-44f1-9b6c-d7f73179886f: 'Show Caption' # Show Caption
+    875dae98-1d96-4528-a3d2-d5a72b4664d2: 'Block: Image Cover' # Block: Image Cover
+    886b0d4b-1386-4f0f-b946-ad76b3120a4c: 'Grouped: Quadruplets' # Grouped: Quadruplets
+    929c3ed2-7b8a-4e3e-860d-87289b0843a6: 'Custom Stage' # Custom Stage
+    996e77e7-6822-4714-af11-eede05096719: 'Block: Image Slider' # Block: Image Slider
+    1224b395-dc5d-4f91-b0ac-c229c4b9529b: 'Grouped: Project Info - Project Title' # Grouped: Project Info - Project Title
+    03362ae1-1b5d-4b72-bcbf-68f7589778a6: Getränke # Getränke
+    3634d6d9-20d0-492d-8105-5e6830c093b3: 'Settings: Image  Double Block' # Settings: Image  Double Block
+    4248c434-3427-4bbb-a540-0761b5cdcb59: Telephone # Telephone
+    4809fc72-a253-4c88-a581-94a15dbd07f5: 'Single: Link' # Single: Link
+    4876b305-29b9-46ea-a03b-10977aef0809: 'Promotion Types' # Promotion Types
+    4924cecd-f048-4035-b305-ebec6917a2f3: 'Single: Rich Text Repeater - Rich Text' # Single: Rich Text Repeater - Rich Text
+    5523e1a6-09ec-41da-8346-f234fc79a17a: 'Entry: Homepage' # Entry: Homepage
+    5562ffb1-8443-4317-ba0a-da5265bdafa4: 'Entry: Globals' # Entry: Globals
+    5582bcec-17e8-4ed8-bae6-131ddaf4cead: 'Settings: App Header' # Settings: App Header
+    6709c019-9bb8-4c24-a0f5-2ae0f5390eee: 'Settings: ButtonGroup Block' # Settings: ButtonGroup Block
+    6766b9e5-47e3-419e-9b4f-747380865009: 'Block: Rich Text Marginals (Deprecated)' # Block: Rich Text Marginals (Deprecated)
+    6771e506-5109-4a7d-ba2a-8a2edc0a5ae2: 'Image Cover' # Image Cover
+    8011e12b-e953-47c7-92f9-eac402f5bc4e: 'Settings: Image  Double - Column Ratio' # Settings: Image  Double - Column Ratio
+    8387a5ea-bb2b-4956-848f-a865c1b0cee4: Stickers # Stickers
+    9552d158-a89b-47ee-8d24-17d6138c0efc: Partner # Partner
+    29078bf3-96e3-48fb-af00-9bb3fe011899: 'Settings: Image Grid Block' # Settings: Image Grid Block
+    31350cc1-b123-4331-8a1a-41d98ef24ad0: 'Block: Link' # Block: Link
+    45592f62-5fb7-4bac-bf2c-9bf95b1d0992: 'SEO Settings' # SEO Settings
+    79620d1d-e5f9-46f6-accb-a7d05d571153: 'Simple Text' # Simple Text
+    80481d08-5262-47ce-be53-0a609eeb9cf3: 'Entry: Services' # Entry: Services
+    85289f84-343d-4142-b42a-e68c64d7f7b9: 'Promotion Categories' # Promotion Categories
+    209881bb-a426-47e6-aaa2-79354a549e58: 'Settings: Image Cover' # Settings: Image Cover
+    300458b4-da66-4238-b905-ad6636cc9eb0: 'Notify Shop Owner' # Notify Shop Owner
+    513262aa-c3b8-48bc-b9c5-cbab9ca3d47e: 'Entry: Unit' # Entry: Unit
+    660190df-e2e1-4a1a-a748-166223dac7c1: 'Article Types' # Article Types
+    717862d4-82be-413f-8ab2-03d6515f6b2e: 'Single: Quote' # Single: Quote
+    991258ec-3bf6-445b-a700-ceeeb9d03837: Headline # Headline
+    994107ce-abe4-4651-aa03-00bd619cd9f9: 'Single: Button Group' # Single: Button Group
+    02898048-de28-4355-a3b4-fa215902d8bf: 'Block: Images' # Block: Images
+    5992931d-7512-421a-be2d-cb53816c9eb0: 'Public Schema' # Public Schema
+    6336893b-6f57-4939-85f7-01c7c0164df3: 'Content Builder Work' # Content Builder Work
+    7134318e-f023-441a-89c2-d00b77108218: FAQs # FAQs
+    8177593b-8cee-481a-854d-bfd5adc54c09: Button # Button
+    16772734-6902-43f0-8b01-7269587d902b: 'Entry: Award Type' # Entry: Award Type
+    37452218-af29-4bab-80e1-fa34acfc6d16: 'Entry: Articles' # Entry: Articles
+    93297297-8001-4979-976a-a26b30908e1e: Genders # Genders
+    a1f6f60c-322b-4f9f-be18-92641e5fc621: 'Block: Accordion Content' # Block: Accordion Content
+    a2b4148d-438f-4105-ae8c-b665bb84ad0c: 'Grouped: Project Grid - Single - Entries' # Grouped: Project Grid - Single - Entries
+    a5b5bddc-6353-4234-bec1-7b36b4a06602: 'Text with Stickers' # Text with Stickers
+    a54ab976-db3d-4c2f-9046-9fc5b67fca75: Jobs # Jobs
+    a95d4304-b0fa-4b68-906f-61b618ee1e19: 'Block: Related Projects' # Block: Related Projects
+    a99d09ae-c4cb-4637-84a1-56662aa4552a: 'Shop: Gender' # Shop: Gender
+    a625c679-6f75-4411-a9c0-2b7905be1063: 'Shop: Images' # Shop: Images
+    a7735d3a-d13b-4fc1-8f2e-24edba816813: 'Entry: Article' # Entry: Article
+    a68296a9-b5fa-450a-a6c3-2a92ddac6bb3: 'Single: Images' # Single: Images
+    a536303f-28f8-44ce-a714-7016c49cbefd: 'Settings: Embed - Embed Position' # Settings: Embed - Embed Position
+    a4649231-c7ba-46a8-9364-3318b851eb77: 'Grouped: Project Grid' # Grouped: Project Grid
+    a6482846-f220-43e2-b1c8-83c76fc1b5af: 'Grouped: Project Info' # Grouped: Project Info
+    aab66a18-eccb-4d87-9ce7-41dbac12dc72: 'Content Builder' # Content Builder
+    ad6b7331-f1d3-44a9-b70f-24214262a47b: Pages # Pages
+    ae7d98ce-f4fa-4aa1-bb36-2e3c6399d9dd: Kleidung # Kleidung
+    aebd8da1-118e-4342-8376-683fe51d1f70: 'Single: Author' # Single: Author
+    b0f61e15-eec0-4227-b19b-3db8252c752c: 'Settings: Image Grid' # Settings: Image Grid
+    b1f71cae-6c73-4f94-86fd-fe0b47424764: 'Shop: Size' # Shop: Size
+    b9ad889d-216b-45d9-a07f-6ea1e6dfa817: 'Newsletter Content Builder - Bild(er) - Bild(er) - Link' # Newsletter Content Builder - Bild(er) - Bild(er) - Link
+    b82a7b3b-3090-4b0d-a6ff-50c4711e61e2: 'Entry: Client' # Entry: Client
+    b87e9952-e616-4486-a5fd-d3fe87b3d1f8: 'Block: Backstage' # Block: Backstage
+    b227e963-3dab-4a3d-a9c9-9bd62ca55041: 'Entry: Service' # Entry: Service
+    b631b9c3-37ac-417c-8e05-ac9ec0c75711: 'Single: Job Location' # Single: Job Location
+    ba9198a2-847d-4a98-b2ad-6b0c6b72402c: 'Block Jobs' # Block Jobs
+    bbb7f989-cdcf-40ce-97f9-dc900d9278f6: 'Public Schema' # Public Schema
+    bdd100ab-144e-4264-a75a-b5e6cb7c3350: 'Settings: Image Cover - Background Position' # Settings: Image Cover - Background Position
+    bfdd8ca2-35d6-4716-8f16-120127bb8dbc: 'Block: Embed' # Block: Embed
+    c2ff7f4c-55dc-4a42-93d4-59505cda75f0: 'Site Users' # Site Users
+    c4e5f9fe-a418-4270-ba15-557c4967bcef: 'Grouped: Project Images - Grid Portrait' # Grouped: Project Images - Grid Portrait
+    c5c5da7e-9f2f-4ece-8d32-98125b15d331: 'Entry: Reference' # Entry: Reference
+    c74f3f9f-b6db-4fc8-b735-28840deaa639: Date # Date
+    c89e2ff5-db32-45fa-8ad0-4251e562ccd0: 'Block: Headline' # Block: Headline
+    c784f2f3-71ce-4449-a07d-be9f427dc6bd: 'Block: Locations' # Block: Locations
+    c92804d7-ed38-4f23-98f4-5876644b09ae: Animate # Animate
+    cb80e479-58f7-4336-a29a-497ac9c24cc1: 'Entry: About' # Entry: About
+    cd018358-a1a4-40d0-a332-1cba4dfbc14e: 'Settings: Image Slider' # Settings: Image Slider
+    cd8b0894-fd0b-4e94-a4a9-d4fa59d16c97: 'Single: SEO Title' # Single: SEO Title
+    d4ae7a7f-e765-49c0-b692-d6475c5c5cd3: 'Grouped: Single' # Grouped: Single
+    d24e51f5-0e6e-452d-b8cd-08f1de33fb44: 'Settings: Headline Block' # Settings: Headline Block
+    d28c4e51-7c51-4d3e-bcf7-19a48ae0c49c: 'Text Hero' # Text Hero
+    d29ad918-75ef-4a15-aa28-30a6f250ce58: 'Split Orientation' # Split Orientation
+    d199b1f5-9270-4a24-bd7f-6d4708506528: FAQs # FAQs
+    d424c57e-8f4c-4378-ab6f-e70c8d039489: 'Award Types' # Award Types
+    d990d33a-5955-4822-ad8a-e818789ee505: Newsletter # Newsletter
+    da1960b2-b272-49ba-a5c3-9db8519a4cb6: Nachname # Nachname
+    db089bb6-8e88-4795-96c1-23694c778669: 'Entry: Jobs' # Entry: Jobs
+    db2c50a4-a041-426b-80d7-786a270f991f: Services # Services
+    dd799f8d-1fa6-419b-b61c-b511afc094b1: 'Entry: Grid Image' # Entry: Grid Image
+    dde88fa0-7a7d-4592-89d0-3bd78f5c6a8b: Location # Location
+    de9f415c-6141-4af4-a5f7-90f4e1c7c487: Team # Team
+    e08f7510-d177-4ba8-9221-2930e2adbf77: 'Single: Related Projects' # Single: Related Projects
+    e1e54d02-3746-4311-a614-328f8a6d5ed9: Client # Client
+    e4aeb713-686f-492d-9f05-5c600e1c9122: 'Entry: Article Tag' # Entry: Article Tag
+    e4f17c23-e055-4d0e-b4b4-5d10bd234de1: 'Entry: Modules' # Entry: Modules
+    e5bb65e6-af3c-4894-86b3-0a3255563865: 'Settings: Image Slider Block' # Settings: Image Slider Block
+    e8bc61b2-50c2-490c-9613-acb241ba431f: 'Site Graphics' # Site Graphics
+    e9cda3a8-9c3b-45e8-888f-98fa13cb219d: 'Block: Image Grid' # Block: Image Grid
+    e11a89e5-c5c8-4f26-9faf-e9c202d9efc0: 'Block: Image Double' # Block: Image Double
+    e18a8442-9aed-4f5e-a624-956f63b0ee3a: 'Entry: Work' # Entry: Work
+    e35fce66-12e0-4e0b-89ae-05200bc2ac17: Shop # Shop
+    e59dbbbe-d4dc-4e1e-b101-4953fbde1fe9: 'Entry: Work Tag' # Entry: Work Tag
+    e90e38fc-f483-485c-b1d7-879ca7dfdfb3: Vorname # Vorname
+    e762c338-786b-4e81-89c6-bb58d32ebc28: 'Settings: Headline - Size' # Settings: Headline - Size
+    e911ee58-d44b-4def-84d5-111ec31d3125: 'Settings: Image  Double' # Settings: Image  Double
+    e5292c62-f36a-4a67-914e-88eac7fde687: 'Newsletter Content Builder - Überschrift - Abstand nach unten' # Newsletter Content Builder - Überschrift - Abstand nach unten
+    e53396bc-f7a9-48f6-b84d-d0688ec3e36c: 'Settings: Embed' # Settings: Embed
+    e61407e5-feab-4476-942e-4a809c049cad: Fredmansky # Fredmansky
+    ed42a3e7-58be-4c60-8fe5-faea28e43cd4: 'Related FAQs' # Related FAQs
+    edb5f29d-afd8-4e9c-9b13-e2ee2c11da49: Fullfilled # Fullfilled
+    efee8009-0a80-4ba1-b7c1-dda742df0d83: 'Entry: Article Type' # Entry: Article Type
+    eff1c786-4c77-49ca-b177-873fbd713465: 'Block: Image Cover (Deprecated)' # Block: Image Cover (Deprecated)
+    effa3742-673d-4a78-b836-f1c72f614c21: 'Entry: Landingpage' # Entry: Landingpage
+    f3fd60d7-2265-45ef-9c8b-a183a8fd42e0: 'Block: Project Teaser (Deprecated)' # Block: Project Teaser (Deprecated)
+    f4a76551-7ef9-4bab-a4e3-339aca409e23: 'Work Tags' # Work Tags
+    f6e95218-fc09-4235-a491-471c1c2d3914: Caption # Caption
+    f9be8306-973b-4030-a656-120ef6dfddf8: 'Single: Project Title' # Single: Project Title
+    f33a4fda-fb85-45e5-913a-b359cbafebe9: 'Article Tags' # Article Tags
+    f61f0d84-0ee4-4092-9c5d-b50cc9d8bdc3: 'Footer Top Text' # Footer Top Text
+    f85c7165-6da7-44a9-928c-57095d6f6cfe: 'Single: Rich Text' # Single: Rich Text
+    f95d0ea4-3f94-4d2f-86ab-5eb8cfe10eb5: 'Block: Individual Entry Grid' # Block: Individual Entry Grid
+    f99eb1e1-cf4f-4c6a-a6a9-c0b670f178eb: 'Category: Articles' # Category: Articles
+    f210b0ab-769d-4c34-b975-54e01b692468: 'Category: Partner' # Category: Partner
+    f235dba2-0daf-4092-a325-7d06f0485ec4: 'Block: Image Grid Calculated (Deprecated)' # Block: Image Grid Calculated (Deprecated)
+    f319cbf3-5e71-4fdd-ad37-567264888d88: 'Grouped: Project Teaser Slider' # Grouped: Project Teaser Slider
+    f631c1eb-757f-4676-ae1e-4b95aca793dc: 'Grouped: Project Images - Stage' # Grouped: Project Images - Stage
+    f8169c70-f4a3-4445-a847-d207163e31a9: Globals # Globals
+    f7689477-3139-43b8-915d-9b58388c7172: 'Experience Level' # Experience Level
+    fa611eaf-68fc-4c30-ba40-cf5bc4d0bcc0: 'Shop: Facts' # Shop: Facts
+    fc4a520f-9b68-4fed-8258-d7d0a94ecf25: 'Grouped: Project Images - Vimeo Video ID' # Grouped: Project Images - Vimeo Video ID
+    fcda2d44-eb19-40a8-be35-3b897d01aac5: Locations # Locations
+    ff0b5648-f1d6-418e-ba27-5075ee7ed5ca: 'Site Images' # Site Images
+plugins:
+  block-usage:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  campaign:
+    edition: lite
+    enabled: true
+    licenseKey: $PLUGIN_CAMPAIGN
+    schemaVersion: 3.5.0
+    settings:
+      apiKey: vCmwdoRrvCQe12iu
+      batchJobDelay: 10
+      contactFieldLayoutId: null
+      emailFieldLabel: Email
+      fromNamesEmails:
+        -
+          - Fredmansky
+          - hello@fredmansky.at
+          - ''
+          - '1'
+      geoIp: false
+      ipstackApiKey: null
+      maxBatchSize: '1000'
+      maxPendingContacts: 5
+      maxRetryAttempts: 10
+      maxSendAttempts: 3
+      maxSendFailsAllowed: 1
+      maxSendFailuresAllowed: 1
+      memoryLimit: 4G
+      memoryThreshold: 0.8
+      purgePendingContactsDuration: 0
+      reCaptcha: '1'
+      reCaptchaBadge: bottomright
+      reCaptchaErrorMessage: 'Your form submission was blocked by Google reCAPTCHA. Please go back and try again.'
+      reCaptchaSecretKey: 6LfzlcAZAAAAAK20onARKf28434RWdkn_mwUlQkt
+      reCaptchaSiteKey: 6LfzlcAZAAAAAERW7ClVYepJ1yQLz0a32BGDqTu2
+      reCaptchaSize: normal
+      reCaptchaTheme: light
+      reCaptchaVersion: '3'
+      sendoutJobBatchSize: 1000
+      sendoutJobTtr: 300
+      showSendoutTitleField: true
+      testMode: false
+      timeLimit: '3600'
+      timeThreshold: 0.8
+      transportSettings:
+        __assoc__:
+          -
+            - domain
+            - mails.fredmansky.com
+          -
+            - apiKey
+            - key-27eb4e4901f070c3543621c27d2ef804
+          -
+            - endpoint
+            - 'https://api.mailgun.net/v3/mails.fredmansky.com'
+      transportType: craft\mailgun\MailgunAdapter
+      unlimitedMemoryLimit: 4G
+      unlimitedTimeLimit: 3600
+      validateWebhookRequests: false
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  commerce:
+    edition: pro
+    enabled: true
+    licenseKey: $PLUGIN_CRAFTCOMMERCE
+    schemaVersion: 5.4.0.5
+  cp-css:
+    enabled: true
+    schemaVersion: 2.0.0
+    settings:
+      additionalCss: ''
+      cacheBusting: true
+      cssFile: /static/css/cp.css
+  dumper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  image-resizer:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  imager-x:
+    edition: pro
+    enabled: true
+    licenseKey: $PLUGIN_IMAGER_X
+    schemaVersion: 4.0.0
+  linkit:
+    edition: standard
+    enabled: true
+    licenseKey: $PLUGIN_LINKIT
+    schemaVersion: 1.2.0
+  mailgun:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  query-api:
+    edition: standard
+    enabled: true
+    licenseKey: $PLUGIN_QUERY_API
+    schemaVersion: 1.0.0
+  quick-edit:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  retour:
+    enabled: true
+    licenseKey: $PLUGIN_RETOUR
+    schemaVersion: 3.0.12
+  seomatic:
+    enabled: true
+    licenseKey: $PLUGIN_SEOMATIC
+    schemaVersion: 3.0.13
+    settings:
+      addHrefLang: true
+      addPaginatedHreflang: true
+      addXDefaultHrefLang: true
+      alwaysIncludeCanonicalUrls: false
+      cpTitlePrefix: '⚙ '
+      cspNonce: ''
+      cspScriptSrcPolicies:
+        -
+          __assoc__:
+            -
+              - policy
+              - "'self'"
+      devModeCpTitlePrefix: '&#x1f6a7;⚙ '
+      devModeTitlePrefix: '[devMode] '
+      displayAnalysisSidebar: true
+      displayPreviewSidebar: true
+      enableDebugToolbarPanel: true
+      enableJsonLdEndpoint: true
+      enableMetaContainerEndpoint: true
+      enableSeoFileLinkEndpoint: true
+      environment: local
+      excludeNonCanonicalUrls: false
+      generatorEnabled: true
+      headersEnabled: true
+      includeHomepageInBreadcrumbs: true
+      lowercaseCanonicalUrl: true
+      manuallySetEnvironment: false
+      maxDescriptionLength: 320
+      maxTitleLength: 70
+      metaCacheDuration: 0
+      pluginName: SEOmatic
+      regenerateSitemapsAutomatically: true
+      renderEnabled: true
+      separatorChar: '|'
+      sidebarDisplayPreviewTypes:
+        - google
+        - twitter
+        - facebook
+        - linkedin
+      siteGroupsSeparate: true
+      siteUrlOverride: ''
+      sitemapsEnabled: true
+      socialMediaPreviewTarget: true
+      submitSitemaps: true
+      truncateDescriptionTags: true
+      truncateTitleTags: true
+      xDefaultSite: 0
+system:
+  edition: pro
+  live: true
+  name: Fredmansky
+  schemaVersion: 5.8.0.3
+  timeZone: Europe/Vienna

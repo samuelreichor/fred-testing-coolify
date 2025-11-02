@@ -1,0 +1,40 @@
+color: null
+description: null
+fieldLayouts:
+  54cc6b6f-09be-4a8f-8b79-3af836fb66a3:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:25:27+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: a2b4148d-438f-4105-ae8c-b665bb84ad0c # Grouped: Project Grid - Single - Entries
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Entries
+            providesThumbs: true
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b4888451-2f8a-4344-a93d-59bd165c7f90
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 28907836-b709-48a0-8913-55c3328abe2c
+        userCondition: null
+handle: groupedSingle
+hasTitleField: false
+icon: null
+name: 'Grouped: Single'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

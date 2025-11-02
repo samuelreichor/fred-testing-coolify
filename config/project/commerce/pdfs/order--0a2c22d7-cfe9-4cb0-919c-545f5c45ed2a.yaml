@@ -1,0 +1,10 @@
+description: 'Default Order PDF'
+enabled: true
+fileNameFormat: ''
+handle: order
+isDefault: true
+language: orderLanguage
+name: Default
+sortOrder: 9999
+store: 184af154-e697-4361-b981-bd5a71a1bf6e # Primary Store
+templatePath: ''

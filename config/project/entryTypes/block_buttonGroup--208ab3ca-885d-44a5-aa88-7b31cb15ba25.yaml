@@ -1,0 +1,63 @@
+color: null
+description: "Please don't use this module"
+fieldLayouts:
+  d69600ca-288b-4769-a8e3-6d1e353b4bf6:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:07:34+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 994107ce-abe4-4651-aa03-00bd619cd9f9 # Single: Button Group
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0e726052-2e4c-426c-bf20-e706b53f6882
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1dac3613-78cd-4eae-a709-6262e5d9c46b
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:07:34+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 2ce3ba09-a1bf-4a19-bafd-421b3114a1e9 # Settings: ButtonGroup
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0b3a88d-a7bf-4968-afb6-5eebdebf1a4e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: 62f474bc-69d2-46ee-8fff-cf79d358f187
+        userCondition: null
+handle: block_buttonGroup
+hasTitleField: false
+icon: null
+name: 'Block: Button Group (Deprecated)'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

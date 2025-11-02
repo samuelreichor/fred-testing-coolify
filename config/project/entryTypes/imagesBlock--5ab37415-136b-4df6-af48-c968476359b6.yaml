@@ -1,0 +1,80 @@
+color: null
+description: null
+fieldLayouts:
+  afdf3806-ca34-4b1c-8848-4a6f482ee3f5:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 06b4e544-d92a-4b59-b046-97fbc59042c7 # Newsletter Content Builder - Bild(er) - Bild(er) - Bild
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Bild
+            providesThumbs: true
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 94dd2e7a-3668-481e-a709-eb9e3bfd5c74
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: b9ad889d-216b-45d9-a07f-6ea1e6dfa817 # Newsletter Content Builder - Bild(er) - Bild(er) - Link
+            handle: linkInfo
+            includeInCards: true
+            instructions: null
+            label: Link
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2ec2e915-0cef-4a59-b5db-20443d068dcb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: eec00ff5-fb1e-4810-bcb4-520877a08ee5
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 181d68b2-2280-494c-b369-6265fe7a10c8 # Newsletter Content Builder - Backstage - Bild(er) - Link
+            handle: linkInfo2
+            includeInCards: true
+            instructions: null
+            label: Link
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a2bea2a-f5d3-4729-a5f8-4f7125fd581c
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Merged Fields'
+        uid: 582a66ee-c51f-4e58-b3be-0165938220f2
+        userCondition: null
+handle: imagesBlock
+hasTitleField: false
+icon: null
+name: 'Newsletter Content Builder - Bild(er) - Bild(er) Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

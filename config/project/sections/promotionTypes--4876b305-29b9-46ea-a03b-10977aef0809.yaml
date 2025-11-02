@@ -1,0 +1,19 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 6b444b4d-eb96-44f3-85b2-a707f17c63ce # Entry: Promotion Type
+handle: promotionTypes
+maxAuthors: 1
+name: 'Promotion Types'
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 13d64729-85b2-4c22-a4b8-a4e928643250
+type: structure

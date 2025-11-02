@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: singleCode
+instructions: null
+name: 'Single: Code'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 12
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

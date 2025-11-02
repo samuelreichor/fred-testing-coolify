@@ -1,0 +1,94 @@
+altTranslationKeyFormat: null
+altTranslationMethod: language
+fieldLayouts:
+  36105e95-bbe9-4e3a-9202-f47b98610126:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-12T16:06:01+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 55d7c111-4f05-4587-aa87-08506f43c003
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-12T16:14:10+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: f6e95218-fc09-4235-a491-471c1c2d3914 # Caption
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dc9d0c2f-e42d-47a6-b268-6fb8f6a99039
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: alt
+            class: null
+            cols: null
+            dateAdded: '2025-09-12T16:07:29+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            rows: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AltField
+            uid: 3a6f9c0e-fe70-4c6a-a4a9-38db1671a9a9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9d851870-ff44-4a24-bde7-3319b5e52583
+        userCondition: null
+fs: siteImages
+handle: siteImages
+name: 'Site Images'
+sortOrder: 0
+subpath: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: none
+transformFs: ''
+transformSubpath: ''

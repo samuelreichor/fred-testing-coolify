@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: spacingBottom
+instructions: null
+name: 'Newsletter Content Builder - Überschrift - Abstand nach unten'
+searchable: true
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

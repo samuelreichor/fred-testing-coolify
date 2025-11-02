@@ -1,0 +1,9 @@
+color: green
+default: true
+description: null
+emails:
+  300458b4-da66-4238-b905-ad6636cc9eb0: 300458b4-da66-4238-b905-ad6636cc9eb0 # Notify Shop Owner
+handle: processing
+name: Processing
+sortOrder: 999
+store: 184af154-e697-4361-b981-bd5a71a1bf6e # Primary Store

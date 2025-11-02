@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: false
+entryTypes:
+  -
+    uid: e4f17c23-e055-4d0e-b4b4-5d10bd234de1 # Entry: Modules
+handle: modules
+maxAuthors: 1
+name: Modules
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - Default
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - ''
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: content-guidelines/modules
+type: single

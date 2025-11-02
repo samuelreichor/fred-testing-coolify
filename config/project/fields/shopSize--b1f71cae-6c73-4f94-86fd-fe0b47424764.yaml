@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: shopSize
+instructions: null
+name: 'Shop: Size'
+searchable: true
+settings:
+  allowSelfRelations: false
+  branchLimit: 1
+  defaultPlacement: end
+  maintainHierarchy: true
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSearchInput: true
+  showSiteMenu: true
+  showUnpermittedEntries: true
+  showUnpermittedSections: true
+  sources:
+    - 'section:85b2fbdb-9500-435a-b28a-6fc42c209347' # Sizes
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

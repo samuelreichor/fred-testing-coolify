@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: groupedProjectInfo
+instructions: null
+name: 'Grouped: Project Info'
+searchable: true
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 89ebec9a-401b-406f-925b-8d39dd59a2cd # Grouped: Project Info Block
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: none
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

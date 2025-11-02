@@ -1,0 +1,64 @@
+name: Check config changes require base.ts update
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prüfen & ggf. kommentieren
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const prNumber = context.payload.pull_request.number;
+
+            // Alle geänderten Dateien des PR einsammeln (mit Pagination)
+            const allFiles = [];
+            let page = 1;
+            while (true) {
+              const { data } = await github.rest.pulls.listFiles({
+                owner, repo, pull_number: prNumber, per_page: 100, page
+              });
+              allFiles.push(...data);
+              if (data.length < 100) break;
+              page++;
+            }
+
+            // GitHub liefert Pfade ohne führendes "./"
+            const CONFIG_PREFIX = "config/";
+            const BASE_TS = "frontend/shared/types/base.ts";
+
+            // nur YAML-Dateien im config/-Ordner (inkl. Unterordner)
+            const isYaml = (name) => name.endsWith(".yml") || name.endsWith(".yaml");
+            const changedYamlInConfig = allFiles
+              .map(f => f.filename)
+              .filter(name => name.startsWith(CONFIG_PREFIX) && isYaml(name));
+
+            const baseTsChanged = allFiles.some(f => f.filename === BASE_TS);
+
+            core.info(`YAMLs in config/ geändert: ${changedYamlInConfig.length}`);
+            core.info(`base.ts geändert: ${baseTsChanged}`);
+
+            if (changedYamlInConfig.length > 1 && !baseTsChanged) {
+              const body = "Hey, I noticed that more than one yaml file has changed. Be sure to run ddev composer run generate-types to adjust type definitions accordingly.";
+
+              // Optional: doppelten Kommentar vermeiden
+              const existing = await github.paginate(github.rest.issues.listComments, {
+                owner, repo, issue_number: prNumber, per_page: 100
+              });
+              const already = existing.some(c =>
+                c.user?.type === "Bot" &&
+                c.body?.includes("more than one yaml file has changed")
+              );
+              if (!already) {
+                await github.rest.issues.createComment({ owner, repo, issue_number: prNumber, body });
+              }
+            }

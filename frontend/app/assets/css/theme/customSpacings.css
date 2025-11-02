@@ -1,0 +1,15 @@
+@theme {
+  --spacing-gutter: var(--container-gap);
+  --spacing-col-1: var(--col-base);
+  --spacing-col-2: calc(var(--col-base) * 2 + var(--container-gap) * 1);
+  --spacing-col-3: calc(var(--col-base) * 3 + var(--container-gap) * 2);
+  --spacing-col-4: calc(var(--col-base) * 4 + var(--container-gap) * 3);
+  --spacing-col-5: calc(var(--col-base) * 5 + var(--container-gap) * 4);
+  --spacing-col-6: calc(var(--col-base) * 6 + var(--container-gap) * 5);
+  --spacing-col-7: calc(var(--col-base) * 7 + var(--container-gap) * 6);
+  --spacing-col-8: calc(var(--col-base) * 8 + var(--container-gap) * 7);
+  --spacing-col-9: calc(var(--col-base) * 9 + var(--container-gap) * 8);
+  --spacing-col-10: calc(var(--col-base) * 10 + var(--container-gap) * 9);
+  --spacing-col-11: calc(var(--col-base) * 11 + var(--container-gap) * 10);
+  --spacing-col-12: calc(var(--col-base) * 12 + var(--container-gap) * 11);
+}

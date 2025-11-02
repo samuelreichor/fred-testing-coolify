@@ -1,0 +1,64 @@
+{# -- Set Defaults -- #}
+{% set defaults = {
+    cn: 'newsletterTextStrikeThrough',
+    modifiers: [],
+    customClasses: [],
+    data: {},
+    js: null,
+    textFirst: null,
+    textSecond: null,
+} %}
+
+{# -- Merge Default with Options -- #}
+{% set opt = opt is defined ? defaults|merge(opt) : defaults %}
+
+<!--[if mso | IE]>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class=""
+       style="max-width:100%;width:100%"
+       width="700">
+    <tr>
+        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]-->
+<div style="margin:0px auto;max-width:700px;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+           style="max-width:100%;width:100%;background-color:#ffffff;">
+        <tbody>
+        <tr>
+            <td>
+
+                <!--[if mso | IE]>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class=""
+                       style="max-width:100%;width:100%;">
+                    <tr>
+                        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;padding:10px 10px;">
+                <![endif]-->
+                <div style="margin:0px auto;max-width:700px; padding:10px 10px 6px 10px;">
+                    <table border="0" cellpadding="0" cellspacing="0"
+                           role="presentation"
+                           style="border-collapse:separate;line-height: 16px;width:100%;">
+                        <tr>
+                            <td align="left" bgcolor="transparent"
+                                role="presentation"
+                                style="font-size: 12px; font-family: Helvetica; text-transform: uppercase; text-align: center;font-weight: 500;line-height: 16px;color: #000 !important;"
+                                valign="middle">
+                                <span style="text-decoration: line-through">{{ opt.textFirst }}</span>{{ opt.textSecond }}
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!--[if mso | IE]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<!--[if mso | IE]>
+</td>
+</tr>
+</table>
+<![endif]-->

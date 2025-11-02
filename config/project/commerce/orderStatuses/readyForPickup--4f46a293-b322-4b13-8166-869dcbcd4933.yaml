@@ -1,0 +1,7 @@
+color: turquoise
+default: false
+description: null
+handle: readyForPickup
+name: 'Ready for PickUp'
+sortOrder: 999
+store: 184af154-e697-4361-b981-bd5a71a1bf6e # Primary Store

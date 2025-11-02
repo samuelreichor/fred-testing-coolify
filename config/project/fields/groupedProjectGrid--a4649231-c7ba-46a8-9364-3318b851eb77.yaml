@@ -1,0 +1,36 @@
+columnSuffix: null
+handle: groupedProjectGrid
+instructions: null
+name: 'Grouped: Project Grid'
+searchable: true
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - d4ae7a7f-e765-49c0-b692-d6475c5c5cd3 # Grouped: Single
+    -
+      __assoc__:
+        -
+          - uid
+          - 9d276d4b-639f-4461-bc1c-59d6de7b1826 # Grouped: Doubles
+    -
+      __assoc__:
+        -
+          - uid
+          - 886b0d4b-1386-4f0f-b946-ad76b3120a4c # Grouped: Quadruplets
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

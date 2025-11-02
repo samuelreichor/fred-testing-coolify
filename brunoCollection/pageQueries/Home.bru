@@ -1,0 +1,22 @@
+meta {
+  name: Home
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{customQueryUrl}}?elementType=entries&site=de&uri=__home__&one=1
+  body: none
+  auth: inherit
+}
+
+params:query {
+  elementType: entries
+  site: de
+  uri: __home__
+  one: 1
+}
+
+settings {
+  encodeUrl: true
+}

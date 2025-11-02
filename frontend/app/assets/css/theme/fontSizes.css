@@ -1,0 +1,7 @@
+@theme {
+  --text-*: initial;
+  --text-base: clamp(1.56rem, calc(1.42vw + 1.23rem), 2.94rem);
+  --text-base--line-height: 1.1;
+  --text-xl: clamp(3.13rem, calc(9.64vw + 0.86rem), 12.44rem);;
+  --text-xl--line-height: 1;
+}

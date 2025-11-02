@@ -1,0 +1,40 @@
+color: null
+description: null
+fieldLayouts:
+  f166c8b2-b891-414b-b9d1-9d96c7b2ae00:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 540e48c0-41f8-4f89-b2ee-2a457c193307 # Newsletter Content Builder - Entry Teaser - Entry
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Entry
+            providesThumbs: true
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e8911812-fd78-4bc1-b9a8-6f1dcc1ac381
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3316e6ef-f76c-455f-97ab-7ed972def6e7
+        userCondition: null
+handle: entryTeaser
+hasTitleField: false
+icon: null
+name: 'Entry Teaser'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

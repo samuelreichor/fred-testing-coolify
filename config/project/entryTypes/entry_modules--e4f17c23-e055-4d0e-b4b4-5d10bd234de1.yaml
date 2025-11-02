@@ -1,0 +1,70 @@
+color: null
+description: null
+fieldLayouts:
+  2cbefcd5-323f-4d89-ac74-23ed17091e18:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-10T10:49:18+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 64f8dc6a-99a9-4e12-a38c-e0d7379cb84a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-10T10:49:18+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: aab66a18-eccb-4d87-9ce7-41dbac12dc72 # Content Builder
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fbfb2ca6-12c8-4b57-94b7-867e1fd63320
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 00c25ef5-1d64-427c-8476-52003715091e
+        userCondition: null
+handle: entry_modules
+hasTitleField: true
+icon: null
+name: 'Entry: Modules'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

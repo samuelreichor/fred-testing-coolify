@@ -1,0 +1,40 @@
+color: null
+description: null
+fieldLayouts:
+  4299afb1-4b85-40da-90b7-907680d3e9c5:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-22T11:18:18+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: fcda2d44-eb19-40a8-be35-3b897d01aac5 # Locations
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7a03efdc-ced9-4c08-a508-ded6b8907606
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a0cb817b-2ecd-4a36-b859-126c04b14d7d
+        userCondition: null
+handle: entry_globals
+hasTitleField: false
+icon: null
+name: 'Entry: Globals'
+showSlugField: true
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,33 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 438dd4c5-69eb-4040-b731-318c76223739 # Entry: Case Study
+  -
+    uid: c5c5da7e-9f2f-4ece-8d32-98125b15d331 # Entry: Reference
+handle: work
+maxAuthors: 1
+name: Work
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - Default
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - ''
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: false
+    hasUrls: true
+    template: null
+    uriFormat: 'w/{slug}'
+structure:
+  maxLevels: null
+  uid: 2c304341-5914-4487-8d68-34b29c429fa8
+type: structure

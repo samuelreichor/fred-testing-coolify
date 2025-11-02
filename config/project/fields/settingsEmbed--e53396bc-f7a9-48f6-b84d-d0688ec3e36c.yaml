@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: settingsEmbed
+instructions: null
+name: 'Settings: Embed'
+searchable: true
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 6ea0042c-9175-409d-8e9e-5653aac81b3d # Settings: Embed Block
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

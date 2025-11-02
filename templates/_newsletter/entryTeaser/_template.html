@@ -1,0 +1,48 @@
+
+{# -- Set Defaults -- #}
+{% set defaults = {
+    cn: 'entryTeaser',
+    modifiers: [],
+    customClasses: [],
+    data: {},
+    js: null,
+    image: null,
+    subline: null,
+    headline: null,
+    text: null,
+    url: null,
+} %}
+
+{# -- Merge Default with Options -- #}
+{% set opt = opt is defined ? defaults|merge(opt) : defaults %}
+
+<a href="{{ opt.url }}" target="_blank">
+
+{% include '_newsletter/images/_template.html' with {
+    opt: {
+        images: opt.image ?? null,
+    }
+} only %}
+
+
+{% include '_newsletter/headline/_template.html' with {
+    opt: {
+        text: opt.headline ?? null,
+        subline: opt.subline ?? null,
+    }
+} only %}
+
+{% include '_newsletter/richText/_template.html' with {
+    opt: {
+        text: opt.text ?? null,
+    }
+} only %}
+
+{% include '_newsletter/teaserLink/_template.html' with {
+    opt: {
+        text: 'Ich will mehr davon',
+        underlineAsBg: true,
+    }
+} only %}
+
+</a>

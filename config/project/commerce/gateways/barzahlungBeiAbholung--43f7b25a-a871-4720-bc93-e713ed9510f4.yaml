@@ -1,0 +1,12 @@
+handle: barzahlungBeiAbholung
+isFrontendEnabled: '1'
+name: 'Barzahlung bei Abholung'
+orderCondition:
+  class: craft\commerce\elements\conditions\orders\GatewayOrderCondition
+  elementType: craft\commerce\elements\Order
+  fieldContext: global
+paymentType: authorize
+settings:
+  onlyAllowForZeroPriceOrders: '0'
+sortOrder: 0
+type: craft\commerce\gateways\Manual

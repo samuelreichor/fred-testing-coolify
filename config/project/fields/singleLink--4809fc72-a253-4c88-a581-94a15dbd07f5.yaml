@@ -1,0 +1,35 @@
+columnSuffix: null
+handle: singleLink
+instructions: null
+name: 'Single: Link'
+searchable: true
+settings:
+  allowCustomText: true
+  allowTarget: true
+  defaultText: null
+  selectLinkText: ''
+  types:
+    __assoc__:
+      -
+        - presseddigital\linkit\models\Entry
+        -
+          __assoc__:
+            -
+              - customSelectionLabel
+              - 'Select an entry'
+            -
+              - enabled
+              - 1
+            -
+              - sources
+              - '*'
+      -
+        - presseddigital\linkit\models\Url
+        -
+          __assoc__:
+            -
+              - enabled
+              - 1
+translationKeyFormat: null
+translationMethod: site
+type: presseddigital\linkit\fields\LinkitField

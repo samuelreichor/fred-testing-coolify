@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: settingsImageGrid
+instructions: null
+name: 'Settings: Image Grid'
+searchable: true
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 29078bf3-96e3-48fb-af00-9bb3fe011899 # Settings: Image Grid Block
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

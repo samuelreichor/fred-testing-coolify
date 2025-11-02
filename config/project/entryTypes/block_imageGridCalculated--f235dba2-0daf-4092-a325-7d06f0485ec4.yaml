@@ -1,0 +1,40 @@
+color: null
+description: "Please don't use this field. Use Block Image Grid instead."
+fieldLayouts:
+  c1176330-e543-429a-818a-4a07def33ccb:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:10:01+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: a68296a9-b5fa-450a-a6c3-2a92ddac6bb3 # Single: Images
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ffeee198-42a5-436e-b982-3aa77c6ebd38
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c8491ac6-8b46-495f-abb5-c1840aee01c3
+        userCondition: null
+handle: block_imageGridCalculated
+hasTitleField: false
+icon: null
+name: 'Block: Image Grid Calculated (Deprecated)'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

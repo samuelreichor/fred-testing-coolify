@@ -1,0 +1,112 @@
+cardThumbAlignment: end
+tabs:
+  -
+    elementCondition: null
+    elements:
+      -
+        attribute: email
+        autocapitalize: true
+        autocomplete: false
+        autocorrect: true
+        autofocus: true
+        class: null
+        dateAdded: null
+        disabled: false
+        elementCondition: null
+        id: null
+        includeInCards: false
+        inputType: null
+        instructions: null
+        label: null
+        mandatory: true
+        max: null
+        maxlength: 255
+        min: null
+        name: null
+        orientation: null
+        placeholder: null
+        providesThumbs: false
+        readonly: false
+        requirable: false
+        required: true
+        size: null
+        step: null
+        tip: null
+        title: null
+        translatable: false
+        type: putyourlightson\campaign\fieldlayoutelements\contacts\ContactEmailFieldLayoutElement
+        uid: 00ea97c4-2590-4b08-b014-739c93fa2bea
+        userCondition: null
+        warning: null
+        width: 100
+      -
+        dateAdded: null
+        editCondition: null
+        elementCondition: null
+        fieldUid: e90e38fc-f483-485c-b1d7-879ca7dfdfb3 # Vorname
+        handle: null
+        includeInCards: false
+        instructions: null
+        label: null
+        providesThumbs: false
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\CustomField
+        uid: 78978081-ea2c-4202-8c5a-29a41b9a3b55
+        userCondition: null
+        warning: null
+        width: 100
+      -
+        dateAdded: null
+        editCondition: null
+        elementCondition: null
+        fieldUid: da1960b2-b272-49ba-a5c3-9db8519a4cb6 # Nachname
+        handle: null
+        includeInCards: false
+        instructions: null
+        label: null
+        providesThumbs: false
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\CustomField
+        uid: 687aff77-eb13-46dc-9877-a6e0d5e43698
+        userCondition: null
+        warning: null
+        width: 100
+      -
+        dateAdded: null
+        editCondition: null
+        elementCondition: null
+        fieldUid: c74f3f9f-b6db-4fc8-b735-28840deaa639 # Date
+        handle: registered
+        includeInCards: false
+        instructions: null
+        label: 'Registriert CleverReach'
+        providesThumbs: false
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\CustomField
+        uid: 1c5d6ba5-5ac6-4a1f-adb1-d41045bc7af4
+        userCondition: null
+        warning: null
+        width: 100
+      -
+        dateAdded: null
+        editCondition: null
+        elementCondition: null
+        fieldUid: c74f3f9f-b6db-4fc8-b735-28840deaa639 # Date
+        handle: null
+        includeInCards: false
+        instructions: null
+        label: null
+        providesThumbs: false
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\CustomField
+        uid: 4453ba94-71e0-4933-adfd-c10ef8b5c9e5
+        userCondition: null
+        warning: null
+        width: 100
+    name: Contact
+    uid: eecd92fe-17b4-400e-ae67-9b634ad58528
+    userCondition: null

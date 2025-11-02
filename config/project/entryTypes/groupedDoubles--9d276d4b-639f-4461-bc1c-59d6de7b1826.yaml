@@ -1,0 +1,57 @@
+color: null
+description: null
+fieldLayouts:
+  a349064e-83ab-4c4b-bfc8-c04d6adbdf24:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:07:39+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3a819bdd-b112-44be-ad32-24da0eb30309 # Grouped: Project Grid - Doubles - Entries
+            handle: entries
+            includeInCards: false
+            instructions: null
+            label: Entries
+            providesThumbs: true
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bff9259a-7453-4c65-afdb-51e870e77bd2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-10T11:07:39+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 9f5d3f6e-f709-441f-80f1-3fc8acf44df5 # Grouped: Project Grid - Doubles - Style
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Style
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d755d187-950e-49db-a2c0-36b375ab0a66
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d2195b20-f1e3-43ba-9bff-e1794c48e4d4
+        userCondition: null
+handle: groupedDoubles
+hasTitleField: false
+icon: null
+name: 'Grouped: Doubles'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

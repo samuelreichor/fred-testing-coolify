@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: settingsHeadline
+instructions: null
+name: 'Settings: Headline'
+searchable: true
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - d24e51f5-0e6e-452d-b8cd-08f1de33fb44 # Settings: Headline Block
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

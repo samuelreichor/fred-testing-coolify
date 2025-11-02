@@ -1,0 +1,91 @@
+.c-text--richText {
+  h1, h2, h3, h4, h5, h6 {
+    & + p,
+    & + div,
+    & + ul,
+    & + ol,
+    & + p,
+    & + a {
+      margin-top: var(--ds-4);
+    }
+  }
+
+  a, ul, ol, p, div, h1, h2, h3, h4, h5, h6 {
+    margin-top: var(--ds-10);
+  }
+
+  * {
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+  }
+
+  ul {
+    li {
+      padding-left: 2rem;
+      position: relative;
+      list-style-type: none;
+
+      @variant md {
+        padding-left: 3.75rem;
+      }
+
+      &:before {
+        position: absolute;
+        content: '';
+        top: calc((var(--line-base-height) - 2px)/2);
+        left: 0;
+        width: 16px;
+        height: 2px;
+        background-color: currentColor;
+
+        @variant md {
+          width: 44px;
+          height: 4px;
+          top: calc((var(--line-base-height) - 4px)/2);
+        }
+      }
+    }
+  }
+
+  ol {
+    position: relative;
+    list-style: none;
+    counter-reset: ol-counter;
+    padding-left: calc(2rem + var(--container-gap));
+
+    @variant md {
+      padding-left: calc(2.75rem + var(--container-gap-xl));
+    }
+
+    li {
+      counter-increment: ol-counter;
+
+      &::before {
+        content: counter(ol-counter);
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+
+  ul,
+  ol {
+    li {
+      margin-top: 0;
+    }
+  }
+
+  *:first-child {
+    margin-top: 0 !important;
+  }
+
+  > p:empty:first-child + *,
+  > p[dir="rtl"]:first-child + * {
+    margin-top: 0 !important;
+  }
+
+  *:last-child {
+    margin-bottom: 0 !important;
+  }
+}

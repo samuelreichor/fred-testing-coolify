@@ -1,0 +1,19 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 16772734-6902-43f0-8b01-7269587d902b # Entry: Award Type
+handle: awardTypes
+maxAuthors: 1
+name: 'Award Types'
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: e16299fd-5c97-4c4c-b01b-53e179fb35ec
+type: structure

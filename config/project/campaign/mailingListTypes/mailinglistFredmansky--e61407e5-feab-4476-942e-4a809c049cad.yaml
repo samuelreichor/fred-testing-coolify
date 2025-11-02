@@ -1,0 +1,11 @@
+handle: mailinglistFredmansky
+name: Fredmansky
+siteUid: 9e4c5b10-0345-4257-a5a8-70987619b1b7 # Fredmansky (de)
+subscribeSuccessTemplate: structures/pages/_types/subscribeEmailSent
+subscribeVerificationEmailSubject: 'Bitte bestätigen Sie Ihre Anmeldung'
+subscribeVerificationEmailTemplate: structures/pages/_types/subscribeEmailVerification
+subscribeVerificationRequired: true
+unsubscribeFormAllowed: false
+unsubscribeSuccessTemplate: structures/pages/_types/unsubscribeSuccess
+unsubscribeVerificationEmailSubject: null
+unsubscribeVerificationEmailTemplate: null

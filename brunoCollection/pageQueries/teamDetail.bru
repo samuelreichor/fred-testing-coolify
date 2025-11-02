@@ -1,0 +1,22 @@
+meta {
+  name: Team Detail
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{customQueryUrl}}?elementType=entries&site=de&id=408051&one=1
+  body: none
+  auth: inherit
+}
+
+params:query {
+  elementType: entries
+  site: de
+  id: 408051
+  one: 1
+}
+
+settings {
+  encodeUrl: true
+}

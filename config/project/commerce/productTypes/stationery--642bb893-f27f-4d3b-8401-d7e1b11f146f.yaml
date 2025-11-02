@@ -1,0 +1,132 @@
+descriptionFormat: ''
+handle: stationery
+hasDimensions: false
+hasProductTitleField: true
+hasVariantTitleField: false
+maxVariants: 1
+name: Schreibwaren
+productFieldLayouts:
+  ff48b2d7-3922-42e4-8924-268e1093cb45:
+    cardThumbAlignment: end
+    cardView:
+      - defaultSku
+      - defaultPrice
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\commerce\fieldlayoutelements\ProductTitleField
+            uid: 470038dc-5386-4b11-812d-ec669787b8c2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: f85c7165-6da7-44a9-928c-57095d6f6cfe # Single: Rich Text
+            handle: shopDescription
+            includeInCards: false
+            instructions: null
+            label: 'Shop: Description'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c6557c93-7460-40c2-9292-5ead5a2995f2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: fa611eaf-68fc-4c30-ba40-cf5bc4d0bcc0 # Shop: Facts
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 978d404e-e8a8-4acb-8689-de1cb25a991d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 52e7cb9c-4308-40be-a6ed-288b87ea2d9f # Shop: Product Images
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d29c4355-538e-4916-bd45-d0a647c1afd7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Info
+        uid: da548dcc-b31c-46a7-913e-6230f09f8c05
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 85289f84-343d-4142-b42a-e68c64d7f7b9 # Promotion Categories
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a89362c1-2d57-4324-89b3-9833615a3a0d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Promotions
+        uid: 561e9d4f-8d1c-4cc7-affb-7d2df5df1400
+        userCondition: null
+productTitleFormat: ''
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    hasUrls: true
+    template: shop/products/_product
+    uriFormat: 'shop/{slug}-{id}'
+skuFormat: ''
+variantTitleFormat: '{product.title}'

@@ -1,0 +1,102 @@
+{# -- Set Defaults -- #}
+{% set defaults = {
+    cn: 'newsletterLink',
+    modifiers: [],
+    customClasses: [],
+    data: {},
+    js: null,
+    text: null,
+    underlineAsBg: null,
+} %}
+
+{# -- Merge Default with Options -- #}
+{% set opt = opt is defined ? defaults|merge(opt) : defaults %}
+
+{% if opt.text %}
+    <!--[if mso | IE]>
+    <table align="left" border="0" cellpadding="0" cellspacing="0" class=""
+           style="max-width:700px;width:100%"
+           width="700">
+        <tr>
+            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+    <![endif]-->
+    <div style="margin:0px auto;max-width:700px;">
+        <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation"
+               style="max-width:700px;width:100%;background-color:#ffffff;">
+            <tbody>
+            <tr>
+                <td>
+
+                    <!--[if mso | IE]>
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" class=""
+                           style="width: 100%;max-width:700px;"
+                           width="700">
+                        <tr>
+                            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;width: 100%;">
+                    <![endif]-->
+                    <div style="margin:0px auto;max-width:700px; padding: 10px 30px 30px 10px;">
+                        <table border="0" cellpadding="0" cellspacing="0" align="left"
+                               role="presentation"
+                               style="border-collapse:separate;line-height:100%;padding-bottom: 54px; width:100%;max-width: 700px;">
+                            <tr>
+                                <td align="left" bgcolor="transparent"
+                                    role="presentation"
+                                    style="width: 100%;max-width: 700px;"
+                                >
+
+                                    <!--[if mso | IE]>
+                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class=""
+                                           style="width: 100%;max-width:700px;"
+                                           width="700">
+                                        <tr>
+                                            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;padding: 10px 30px 30px 10px;width: 100%;">
+                                    <![endif]-->
+                                    <table border="0" cellpadding="0" cellspacing="0" align="left"
+                                           role="presentation"
+                                            {% if opt.underlineAsBg %}
+                                                background="{{ currentSite.baseUrl }}assets/images/bitmap/newsletter/line1.png"
+                                                style="background-url:url({{ currentSite.baseUrl }}assets/images/bitmap/newsletter/line1.png);background-repeat:repeat-x; background-position: bottom left;padding-bottom: 2px;font-weight: 600;"
+                                            {% else %}
+                                                style="border-collapse:separate;line-height:100%;width:100%;max-width: 700px;"
+                                            {% endif %}
+                                    >
+                                        <tr>
+                                            <td align="left" bgcolor="transparent"
+                                                role="presentation"
+                                                style="width: 100%;max-width: 700px;"
+                                                class="link--black"
+                                            >
+
+                                                <div style="display:inline-block;font-size: 16px;line-height: 22px; word-break: break-word;color: #000 !important;
+                                                   {% if opt.underlineAsBg %} padding-bottom: 5px;font-weight: bold;{% else %} text-decoration: underline; text-transform: uppercase;{% endif %}">
+                                                    {{ opt.text }}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!--[if mso | IE]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!--[if mso | IE]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--[if mso | IE]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+{% endif %}

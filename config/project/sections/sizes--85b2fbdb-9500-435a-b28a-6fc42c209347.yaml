@@ -1,0 +1,19 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 85c81615-f87f-4c32-b627-f95dac87150c # Entry: Size
+handle: sizes
+maxAuthors: 1
+name: Sizes
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 32791c6c-e2ee-47d0-912d-7e3da1a3a574
+type: structure

@@ -1,0 +1,33 @@
+columnSuffix: null
+handle: columnRatio
+instructions: null
+name: 'Settings: Image  Double - Column Ratio'
+searchable: true
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - '■■ | ■■■■'
+        -
+          - value
+          - smallLarge
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '■■■■ | ■■'
+        -
+          - value
+          - largeSmall
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

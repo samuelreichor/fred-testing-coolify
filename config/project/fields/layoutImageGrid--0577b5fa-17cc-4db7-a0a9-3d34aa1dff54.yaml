@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: layoutImageGrid
+instructions: "Choose the grid type for this section:\r\nSimple Grid creates two equally sized columns.\r\nSplit Grid creates one wide and one narrow column."
+name: 'Layout Image Grid'
+searchable: false
+settings:
+  default: false
+  offLabel: 'Simple Grid'
+  onLabel: 'Split Grid'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

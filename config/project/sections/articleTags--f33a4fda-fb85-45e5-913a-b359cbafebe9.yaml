@@ -1,0 +1,19 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: e4aeb713-686f-492d-9f05-5c600e1c9122 # Entry: Article Tag
+handle: articleTags
+maxAuthors: 1
+name: 'Article Tags'
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: bbde0968-5291-4d41-b970-f7758f88d25a
+type: structure

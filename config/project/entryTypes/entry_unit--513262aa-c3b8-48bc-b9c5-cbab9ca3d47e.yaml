@@ -1,0 +1,133 @@
+color: null
+description: null
+fieldLayouts:
+  ae737848-f84f-4455-ab70-c6272060ccf2:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: dc873077-16bd-473e-b725-76d15eff6814
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 567eb8d6-b11f-41ee-a706-b162dc7e7e1c # Category: Service
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c278490e-8567-4121-96f1-f3dccecdf1d7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Relation
+        uid: cbeb33ae-ece8-4aac-8f7c-8952be4e1afb
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: cd8b0894-fd0b-4e94-a4a9-d4fa59d16c97 # Single: SEO Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 16b4c778-c064-4fc5-a7f9-9c8fd7c63279
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: a4649231-c7ba-46a8-9364-3318b851eb77 # Grouped: Project Grid
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 970244bc-ca7e-4292-a5fb-d92b3659748e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 320c58de-c84b-48cc-9c51-d04347695a96
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 07f85313-5d91-415c-9bd3-6cd0acf06af1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 68f4261d-b3c1-4cd4-97df-88276bd4619c
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 2d68cc8a-041f-4c8a-9fe4-cf588408fb85
+        userCondition: null
+handle: entry_unit
+hasTitleField: true
+icon: null
+name: 'Entry: Unit'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

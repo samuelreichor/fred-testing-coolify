@@ -1,0 +1,36 @@
+.ck.ck.ck-content {
+  * {
+    color: var(--color-black);
+    font-family: var(--font-sans);
+  }
+
+  p,
+  li {
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol {
+    margin-top: 0;
+  }
+
+  ol {
+    padding-left: 0;
+  }
+
+  h6 {
+    text-transform: unset;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,40 @@
+color: null
+description: null
+fieldLayouts:
+  f2fa06d3-1af9-40f1-ad8b-394f85950114:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T11:25:10+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 45fe35bb-4a14-4fd1-a65a-d9c9ee57f467 # Grouped: Project Grid - Quadruplets - Entries
+            handle: entries
+            includeInCards: true
+            instructions: null
+            label: Entries
+            providesThumbs: true
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7791b847-5323-4c67-8b61-2a4d67c64128
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 678ba2f3-9d2a-4304-9b11-e595dc821959
+        userCondition: null
+handle: groupedQuadruplets
+hasTitleField: false
+icon: null
+name: 'Grouped: Quadruplets'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

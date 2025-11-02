@@ -1,0 +1,138 @@
+color: null
+description: null
+fieldLayouts:
+  240ceaf2-c345-4199-9562-385e45217b1d:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-29T08:43:01+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 674b8645-5a09-44f1-9b6c-d7f73179886f # Show Caption
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Caption
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0088403b-749a-4e3d-ac34-2ee6d49ad853
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-29T08:50:44+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 0577b5fa-17cc-4db7-a0a9-3d34aa1dff54 # Layout Image Grid
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3492642d-2e7e-4dc5-9ec3-3d04e6397e62
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-29T08:43:01+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 0577b5fa-17cc-4db7-a0a9-3d34aa1dff54 # Layout Image Grid
+                  layoutElementUid: 3492642d-2e7e-4dc5-9ec3-3d04e6397e62
+                  uid: 7c30b2cf-4f83-412d-be19-ef2e87183690
+                  value: false
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: 6cf16dcf-f649-464d-9be3-f40daefb1333 # Settings: Image Grid - Columns
+            handle: columns
+            includeInCards: false
+            instructions: null
+            label: Columns
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e7f323c0-a39a-47f5-bb56-b77337622971
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-29T08:50:44+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 0577b5fa-17cc-4db7-a0a9-3d34aa1dff54 # Layout Image Grid
+                  layoutElementUid: 3492642d-2e7e-4dc5-9ec3-3d04e6397e62
+                  uid: c36b03fa-de2b-4f1e-96cc-8a3b3f88bdf7
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: d29ad918-75ef-4a15-aa28-30a6f250ce58 # Split Orientation
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4f6cfb40-3fe0-4ca0-a093-35c60bcd0bfd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-29T08:58:58+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 0577b5fa-17cc-4db7-a0a9-3d34aa1dff54 # Layout Image Grid
+                  layoutElementUid: 3492642d-2e7e-4dc5-9ec3-3d04e6397e62
+                  uid: 3a305db4-13bc-4c18-8972-93983cb56739
+                  value: false
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: 5c9b3f7d-b541-4f5a-b514-cfc65f52ef7b # Image Ratio
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7adcd73a-0f34-469b-84dc-8c73d5993c2c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 34fb4564-5f18-4878-8ce0-c0fbac4dc011
+        userCondition: null
+handle: settingsImageGridBlock
+hasTitleField: false
+icon: null
+name: 'Settings: Image Grid Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

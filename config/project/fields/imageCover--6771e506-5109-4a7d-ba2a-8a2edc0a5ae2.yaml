@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: imageCover
+instructions: null
+name: 'Image Cover'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 875dae98-1d96-4528-a3d2-d5a72b4664d2 # Block: Image Cover
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

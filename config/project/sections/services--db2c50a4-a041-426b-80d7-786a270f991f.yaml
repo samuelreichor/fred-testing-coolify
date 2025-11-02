@@ -1,0 +1,19 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: b227e963-3dab-4a3d-a9c9-9bd62ca55041 # Entry: Service
+handle: services
+maxAuthors: 1
+name: Services
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 2
+  uid: 156571fc-4f0d-42ea-807b-e99b5257cc77
+type: structure

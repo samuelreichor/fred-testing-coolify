@@ -1,0 +1,41 @@
+{
+  "name": "fredmansky",
+  "private": true,
+  "author": {
+    "email": "admin@fredmansky.at",
+    "name": "Fredmansky",
+    "url": "https://fredmansky.at/"
+  },
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "start": "ddev start && ddev launch /admin && npm run start --workspace=frontend",
+    "build": "npm run build --workspace=frontend",
+    "dev": "npm run dev --workspace=frontend",
+    "preview": "npm run preview --workspace=frontend",
+    "generate": "npm run generate --workspace=frontend",
+    "lint": "npm run lint --workspace=frontend",
+    "lint:fix": "npm run lint:fix --workspace=frontend",
+    "ci": "npm run ci --workspace=frontend",
+    "build:cp": "npm run build:cp --workspace=frontend",
+    "dev:cp": "npm run dev:cp --workspace=frontend",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "9.1.6",
+    "lint-staged": "15.2.10",
+    "nuxt-shiki": "^0.3.1"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.9.5"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue,ts}": [
+      "npm run lint:fix"
+    ]
+  },
+  "dependencies": {
+    "@query-api/nuxt": "^0.4.2"
+  }
+}

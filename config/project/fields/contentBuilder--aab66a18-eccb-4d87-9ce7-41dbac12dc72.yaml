@@ -1,0 +1,165 @@
+columnSuffix: null
+handle: contentBuilder
+instructions: null
+name: 'Content Builder'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 5fb03a9b-975c-4e05-adcf-ccfeeebeafec # Block: Button
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 82cbcace-42c7-4d76-b843-7fca05d8774c # Block: Code
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - bfdd8ca2-35d6-4716-8f16-120127bb8dbc # Block: Embed
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 9d3a3639-6bc0-4fdb-af04-12b5f72b317f # Block: FAQ
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 17fd7dce-492b-46c0-9e31-1349ede5974d # Block: Headline
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 875dae98-1d96-4528-a3d2-d5a72b4664d2 # Block: Image Cover
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - e9cda3a8-9c3b-45e8-888f-98fa13cb219d # Block: Image Grid
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 996e77e7-6822-4714-af11-eede05096719 # Block: Image Slider
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - f95d0ea4-3f94-4d2f-86ab-5eb8cfe10eb5 # Block: Individual Entry Grid
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - ba9198a2-847d-4a98-b2ad-6b0c6b72402c # Block Jobs
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 0f31b23d-9cf9-4af2-9177-da772cb61534 # Block: Quote
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - a95d4304-b0fa-4b68-906f-61b618ee1e19 # Block: Related Projects
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 7ac911e0-9050-4a42-9973-4fd2254979d7 # Block: Rich Text
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 58bc10e4-5b32-4716-9f07-d336fae97efd # Block: Salary Band
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - eff1c786-4c77-49ca-b177-873fbd713465 # Block: Image Cover (Deprecated)
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 208ab3ca-885d-44a5-aa88-7b31cb15ba25 # Block: Button Group (Deprecated)
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 6766b9e5-47e3-419e-9b4f-747380865009 # Block: Rich Text Marginals (Deprecated)
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - f3fd60d7-2265-45ef-9c8b-a183a8fd42e0 # Block: Project Teaser (Deprecated)
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

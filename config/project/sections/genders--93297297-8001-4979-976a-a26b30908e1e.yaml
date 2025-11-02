@@ -1,0 +1,19 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 15aa4d28-7f1c-412c-b08e-571000ff27c8 # Entry: Gender
+handle: genders
+maxAuthors: 1
+name: Genders
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 23229112-396a-44ff-9f68-2be9cd064a2f
+type: structure

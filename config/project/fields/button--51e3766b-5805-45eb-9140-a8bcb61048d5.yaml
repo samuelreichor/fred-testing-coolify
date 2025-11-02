@@ -1,0 +1,75 @@
+columnSuffix: null
+handle: button
+instructions: null
+name: 'Single: Button Group - Button'
+searchable: true
+settings:
+  allowCustomText: true
+  allowTarget: true
+  defaultText: null
+  selectLinkText: ''
+  types:
+    __assoc__:
+      -
+        - presseddigital\linkit\models\Email
+        -
+          __assoc__:
+            -
+              - enabled
+              - 1
+      -
+        - presseddigital\linkit\models\Phone
+        -
+          __assoc__:
+            -
+              - enabled
+              - 1
+      -
+        - presseddigital\linkit\models\Url
+        -
+          __assoc__:
+            -
+              - enabled
+              - 1
+      -
+        - presseddigital\linkit\models\Entry
+        -
+          __assoc__:
+            -
+              - enabled
+              - 1
+            -
+              - sources
+              - '*'
+            -
+              - customSelectionLabel
+              - 'Select an entry'
+      -
+        - presseddigital\linkit\models\Category
+        -
+          __assoc__:
+            -
+              - enabled
+              - 1
+            -
+              - sources
+              - '*'
+            -
+              - customSelectionLabel
+              - 'Select a category'
+      -
+        - presseddigital\linkit\models\Asset
+        -
+          __assoc__:
+            -
+              - enabled
+              - 1
+            -
+              - sources
+              - '*'
+            -
+              - customSelectionLabel
+              - 'Select an asset'
+translationKeyFormat: null
+translationMethod: none
+type: presseddigital\linkit\fields\LinkitField

@@ -1,0 +1,51 @@
+
+{# -- Set Defaults -- #}
+{% set defaults = {
+    cn: 'emailBackstage',
+    modifiers: [],
+    customClasses: [],
+    data: {},
+    js: null,
+    images: null,
+    url: null,
+    text: null,
+} %}
+
+{# -- Merge Default with Options -- #}
+{% set opt = opt is defined ? defaults|merge(opt) : defaults %}
+
+{% if opt.url %}
+<a href="{{ opt.url }}" target="_blank">
+{% endif %}
+
+{% include '_newsletter/textStrikeThrough/_template.html' with {
+    opt: {
+        textFirst: 'back',
+        textSecond: 'stage',
+    }
+} only %}
+
+{% if opt.images %}
+    {% include '_newsletter/images/_linked.html' with {
+        opt: {
+            images: opt.images ?? null,
+            ratio: 'square',
+            spacingBottom: opt.url ? false : true,
+            backstage: true,
+        }
+    } only %}
+{% endif %}
+
+{% if opt.url %}
+    {% include '_newsletter/teaserLink/_template.html' with {
+        opt: {
+            text: opt.text ?? null,
+            underlineAsBg: false,
+        }
+    } only %}
+{% endif %}
+
+
+{% if opt.url %}
+</a>
+{% endif %}

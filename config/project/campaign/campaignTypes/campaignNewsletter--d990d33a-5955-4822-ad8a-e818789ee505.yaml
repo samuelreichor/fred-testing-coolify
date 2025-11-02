@@ -1,0 +1,54 @@
+fieldLayouts:
+  262b5025-ae22-4b58-bb1a-ae374d555bff:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 8c463bd6-07d0-4cea-ba35-33063a3a6780 # Newsletter  Preview Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4e9b1df6-fb2b-4cd0-ba12-7968ae6b4fd4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 6e728a6b-cf4a-4751-8ede-1c894986a3c0 # Content Builder Newsletter 
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d88f3db4-313c-4b78-8b53-ce7b87d8fb2c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Campaign
+        uid: 2904c0c9-2045-411e-929f-9266d3ec5c2c
+        userCondition: null
+handle: campaignNewsletter
+hasTitleField: true
+htmlTemplate: _contentBuilders/_emailContentBuilderMatrix
+name: Newsletter
+plaintextTemplate: _contentBuilders/_emailContentBuilderMatrix
+queryStringParameters: null
+siteUid: 9e4c5b10-0345-4257-a5a8-70987619b1b7 # Fredmansky (de)
+testContactIds: null
+titleFormat: null
+uriFormat: 'newsletter/{slug}'

@@ -1,0 +1,27 @@
+:root {
+  --container-gap: 1rem;
+  --container-gap-xl: 1.5rem;
+  --container-margin-x: var(--container-gap);
+  --grid-cols: 12;
+  --col-base: calc(
+    (100% - 2 * var(--container-margin-x) - (var(--grid-cols) - 1) * var(--container-gap))
+    / var(--grid-cols)
+  );
+  --line-base-height: calc(var(--text-base) * var(--text-base--line-height));
+  --navHeight: calc(var(--line-base-height) + 2rem);
+  @variant md {
+    --container-gap: 1.5rem;
+    --container-gap-xl: 2.5rem;
+    --navHeight: calc(var(--line-base-height) + 3rem);
+  }
+
+  @variant xl {
+    --container-gap: 2.5rem;
+    --container-gap-xl: 5rem;
+  }
+
+  @variant 2xl {
+    --container-gap: 3.5rem;
+    --container-gap-xl: 7rem;
+  }
+}

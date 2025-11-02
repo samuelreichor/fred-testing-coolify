@@ -1,0 +1,8 @@
+@import './breakpoints.css';
+@import './colors.css';
+@import './fonts.css';
+@import './fontSizes.css';
+@import './designSystemSpacings.css';
+@import './customSpacings.css';
+@import './utilities.css';
+@source inline("{sm:,md:,lg:,xl:,}grid-cols-{1..12..1}");

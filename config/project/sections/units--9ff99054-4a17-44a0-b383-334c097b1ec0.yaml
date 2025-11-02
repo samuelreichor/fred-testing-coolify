@@ -1,0 +1,19 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 513262aa-c3b8-48bc-b9c5-cbab9ca3d47e # Entry: Unit
+handle: units
+maxAuthors: 1
+name: Units
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: eae12b67-8394-4d15-8da5-532cea5e23fe
+type: structure

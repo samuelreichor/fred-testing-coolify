@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 7e3d973b-6988-4797-8886-0106dc06d71a # Entry: Job
+handle: jobs
+maxAuthors: 1
+name: Jobs
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - Default
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - ''
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: false
+    hasUrls: true
+    template: null
+    uriFormat: 'j/{slug}'
+type: channel

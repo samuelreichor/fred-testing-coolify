@@ -1,0 +1,40 @@
+color: null
+description: null
+fieldLayouts:
+  f54ee058-ac0d-443a-a872-2f61643c4a8a:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: e762c338-786b-4e81-89c6-bb58d32ebc28 # Settings: Headline - Size
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Size
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d084ed4a-c9c7-4537-8cea-95585a321f5a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6252fa6c-8ac0-401c-9184-2af266ce3350
+        userCondition: null
+handle: settingsHeadlineBlock
+hasTitleField: false
+icon: null
+name: 'Settings: Headline Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

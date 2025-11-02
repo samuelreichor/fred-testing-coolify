@@ -1,0 +1,19 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 6af248d3-3c16-454d-977a-ae258008af28 # Entry: Partner
+handle: partner
+maxAuthors: 1
+name: Partner
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: bf45e6f1-3969-42f3-abf3-5842b3646a44
+type: structure

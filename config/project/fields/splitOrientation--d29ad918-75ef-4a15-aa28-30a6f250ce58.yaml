@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: splitOrientation
+instructions: "Wide Left: the left column is wide, the right column is narrow.\r\nWide Right: the right column is wide, the left column is narrow."
+name: 'Split Orientation'
+searchable: false
+settings:
+  default: false
+  offLabel: 'Wide Left'
+  onLabel: 'Wide Right'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

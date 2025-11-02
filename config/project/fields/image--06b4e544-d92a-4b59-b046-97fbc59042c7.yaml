@@ -1,0 +1,41 @@
+columnSuffix: null
+handle: image
+instructions: Bild
+name: 'Newsletter Content Builder - Bild(er) - Bild(er) - Bild'
+searchable: true
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  branchLimit: null
+  defaultPlacement: end
+  defaultUploadLocationSource: 'volume:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+  defaultUploadLocationSubpath: null
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: true
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+  restrictedLocationSubpath: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSearchInput: true
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
+  sources:
+    - 'volume:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+    - 'volume:8f7efc74-2340-4272-aeda-5ed035ef86ed' # Site Downloads
+    - 'volume:e8bc61b2-50c2-490c-9613-acb241ba431f' # Site Graphics
+    - 'volume:a625c679-6f75-4411-a9c0-2b7905be1063' # Shop: Images
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Assets

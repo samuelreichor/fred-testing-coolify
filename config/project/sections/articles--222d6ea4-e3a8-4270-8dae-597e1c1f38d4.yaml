@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: a7735d3a-d13b-4fc1-8f2e-24edba816813 # Entry: Article
+handle: articles
+maxAuthors: 1
+name: Articles
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - Default
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - ''
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: false
+    hasUrls: true
+    template: null
+    uriFormat: 'a/{slug}'
+type: channel

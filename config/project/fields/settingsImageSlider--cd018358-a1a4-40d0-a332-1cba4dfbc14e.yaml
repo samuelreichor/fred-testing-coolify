@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: settingsImageSlider
+instructions: null
+name: 'Settings: Image Slider'
+searchable: true
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - e5bb65e6-af3c-4894-86b3-0a3255563865 # Settings: Image Slider Block
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

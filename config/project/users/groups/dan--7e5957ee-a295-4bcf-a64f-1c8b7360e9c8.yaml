@@ -1,0 +1,296 @@
+description: null
+handle: dan
+name: Redakteur
+permissions:
+  - accesscp
+  - accessplugin-block-usage
+  - accessplugin-campaign
+  - accessplugin-seomatic
+  - accesssitewhensystemisoff
+  - 'campaign:campaigns'
+  - 'campaign:campaigns:d990d33a-5955-4822-ad8a-e818789ee505' # Newsletter
+  - 'campaign:contacts'
+  - 'campaign:reports'
+  - 'campaign:sendouts'
+  - 'campaign:sendsendouts'
+  - 'createentries:222d6ea4-e3a8-4270-8dae-597e1c1f38d4' # Articles
+  - 'createentries:40dc5d7c-524a-4527-aa32-9e6bddf371d1' # Work
+  - 'createentries:4876b305-29b9-46ea-a03b-10977aef0809' # Promotion Types
+  - 'createentries:660190df-e2e1-4a1a-a748-166223dac7c1' # Article Types
+  - 'createentries:85b2fbdb-9500-435a-b28a-6fc42c209347' # Sizes
+  - 'createentries:929c3ed2-7b8a-4e3e-860d-87289b0843a6' # Custom Stage
+  - 'createentries:93297297-8001-4979-976a-a26b30908e1e' # Genders
+  - 'createentries:9552d158-a89b-47ee-8d24-17d6138c0efc' # Partner
+  - 'createentries:9ff99054-4a17-44a0-b383-334c097b1ec0' # Units
+  - 'createentries:a54ab976-db3d-4c2f-9046-9fc5b67fca75' # Jobs
+  - 'createentries:ad6b7331-f1d3-44a9-b70f-24214262a47b' # Pages
+  - 'createentries:d199b1f5-9270-4a24-bd7f-6d4708506528' # FAQs
+  - 'createentries:d424c57e-8f4c-4378-ab6f-e70c8d039489' # Award Types
+  - 'createentries:db2c50a4-a041-426b-80d7-786a270f991f' # Services
+  - 'createentries:de9f415c-6141-4af4-a5f7-90f4e1c7c487' # Team
+  - 'createentries:e1e54d02-3746-4311-a614-328f8a6d5ed9' # Client
+  - 'createentries:f33a4fda-fb85-45e5-913a-b359cbafebe9' # Article Tags
+  - 'createentries:f4a76551-7ef9-4bab-a4e3-339aca409e23' # Work Tags
+  - 'createfolders:8387a5ea-bb2b-4956-848f-a865c1b0cee4' # Stickers
+  - 'createfolders:8f7efc74-2340-4272-aeda-5ed035ef86ed' # Site Downloads
+  - 'createfolders:a625c679-6f75-4411-a9c0-2b7905be1063' # Shop: Images
+  - 'createfolders:c2ff7f4c-55dc-4a42-93d4-59505cda75f0' # Site Users
+  - 'createfolders:e8bc61b2-50c2-490c-9613-acb241ba431f' # Site Graphics
+  - 'createfolders:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+  - 'deleteassets:8387a5ea-bb2b-4956-848f-a865c1b0cee4' # Stickers
+  - 'deleteassets:8f7efc74-2340-4272-aeda-5ed035ef86ed' # Site Downloads
+  - 'deleteassets:a625c679-6f75-4411-a9c0-2b7905be1063' # Shop: Images
+  - 'deleteassets:c2ff7f4c-55dc-4a42-93d4-59505cda75f0' # Site Users
+  - 'deleteassets:e8bc61b2-50c2-490c-9613-acb241ba431f' # Site Graphics
+  - 'deleteassets:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+  - 'deleteentries:222d6ea4-e3a8-4270-8dae-597e1c1f38d4' # Articles
+  - 'deleteentries:40dc5d7c-524a-4527-aa32-9e6bddf371d1' # Work
+  - 'deleteentries:4876b305-29b9-46ea-a03b-10977aef0809' # Promotion Types
+  - 'deleteentries:660190df-e2e1-4a1a-a748-166223dac7c1' # Article Types
+  - 'deleteentries:85b2fbdb-9500-435a-b28a-6fc42c209347' # Sizes
+  - 'deleteentries:929c3ed2-7b8a-4e3e-860d-87289b0843a6' # Custom Stage
+  - 'deleteentries:93297297-8001-4979-976a-a26b30908e1e' # Genders
+  - 'deleteentries:9552d158-a89b-47ee-8d24-17d6138c0efc' # Partner
+  - 'deleteentries:9ff99054-4a17-44a0-b383-334c097b1ec0' # Units
+  - 'deleteentries:a54ab976-db3d-4c2f-9046-9fc5b67fca75' # Jobs
+  - 'deleteentries:ad6b7331-f1d3-44a9-b70f-24214262a47b' # Pages
+  - 'deleteentries:d199b1f5-9270-4a24-bd7f-6d4708506528' # FAQs
+  - 'deleteentries:d424c57e-8f4c-4378-ab6f-e70c8d039489' # Award Types
+  - 'deleteentries:db2c50a4-a041-426b-80d7-786a270f991f' # Services
+  - 'deleteentries:de9f415c-6141-4af4-a5f7-90f4e1c7c487' # Team
+  - 'deleteentries:e1e54d02-3746-4311-a614-328f8a6d5ed9' # Client
+  - 'deleteentries:f33a4fda-fb85-45e5-913a-b359cbafebe9' # Article Tags
+  - 'deleteentries:f4a76551-7ef9-4bab-a4e3-339aca409e23' # Work Tags
+  - 'deletepeerassets:8387a5ea-bb2b-4956-848f-a865c1b0cee4' # Stickers
+  - 'deletepeerassets:8f7efc74-2340-4272-aeda-5ed035ef86ed' # Site Downloads
+  - 'deletepeerassets:c2ff7f4c-55dc-4a42-93d4-59505cda75f0' # Site Users
+  - 'deletepeerassets:e8bc61b2-50c2-490c-9613-acb241ba431f' # Site Graphics
+  - 'deletepeerassets:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+  - 'deletepeerentries:222d6ea4-e3a8-4270-8dae-597e1c1f38d4' # Articles
+  - 'deletepeerentries:40dc5d7c-524a-4527-aa32-9e6bddf371d1' # Work
+  - 'deletepeerentries:4876b305-29b9-46ea-a03b-10977aef0809' # Promotion Types
+  - 'deletepeerentries:660190df-e2e1-4a1a-a748-166223dac7c1' # Article Types
+  - 'deletepeerentries:85b2fbdb-9500-435a-b28a-6fc42c209347' # Sizes
+  - 'deletepeerentries:929c3ed2-7b8a-4e3e-860d-87289b0843a6' # Custom Stage
+  - 'deletepeerentries:93297297-8001-4979-976a-a26b30908e1e' # Genders
+  - 'deletepeerentries:9552d158-a89b-47ee-8d24-17d6138c0efc' # Partner
+  - 'deletepeerentries:9ff99054-4a17-44a0-b383-334c097b1ec0' # Units
+  - 'deletepeerentries:a54ab976-db3d-4c2f-9046-9fc5b67fca75' # Jobs
+  - 'deletepeerentries:ad6b7331-f1d3-44a9-b70f-24214262a47b' # Pages
+  - 'deletepeerentries:d199b1f5-9270-4a24-bd7f-6d4708506528' # FAQs
+  - 'deletepeerentries:d424c57e-8f4c-4378-ab6f-e70c8d039489' # Award Types
+  - 'deletepeerentries:db2c50a4-a041-426b-80d7-786a270f991f' # Services
+  - 'deletepeerentries:de9f415c-6141-4af4-a5f7-90f4e1c7c487' # Team
+  - 'deletepeerentries:e1e54d02-3746-4311-a614-328f8a6d5ed9' # Client
+  - 'deletepeerentries:f33a4fda-fb85-45e5-913a-b359cbafebe9' # Article Tags
+  - 'deletepeerentries:f4a76551-7ef9-4bab-a4e3-339aca409e23' # Work Tags
+  - 'deletepeerentrydrafts:0fe1fe7e-9e1d-432b-9401-fa46118d05f4' # Modules
+  - 'deletepeerentrydrafts:18ce4035-f866-4843-8748-e27173a3a8f8' # Homepage
+  - 'deletepeerentrydrafts:222d6ea4-e3a8-4270-8dae-597e1c1f38d4' # Articles
+  - 'deletepeerentrydrafts:40dc5d7c-524a-4527-aa32-9e6bddf371d1' # Work
+  - 'deletepeerentrydrafts:4876b305-29b9-46ea-a03b-10977aef0809' # Promotion Types
+  - 'deletepeerentrydrafts:660190df-e2e1-4a1a-a748-166223dac7c1' # Article Types
+  - 'deletepeerentrydrafts:85b2fbdb-9500-435a-b28a-6fc42c209347' # Sizes
+  - 'deletepeerentrydrafts:929c3ed2-7b8a-4e3e-860d-87289b0843a6' # Custom Stage
+  - 'deletepeerentrydrafts:93297297-8001-4979-976a-a26b30908e1e' # Genders
+  - 'deletepeerentrydrafts:9552d158-a89b-47ee-8d24-17d6138c0efc' # Partner
+  - 'deletepeerentrydrafts:9ff99054-4a17-44a0-b383-334c097b1ec0' # Units
+  - 'deletepeerentrydrafts:a54ab976-db3d-4c2f-9046-9fc5b67fca75' # Jobs
+  - 'deletepeerentrydrafts:ad6b7331-f1d3-44a9-b70f-24214262a47b' # Pages
+  - 'deletepeerentrydrafts:d199b1f5-9270-4a24-bd7f-6d4708506528' # FAQs
+  - 'deletepeerentrydrafts:d424c57e-8f4c-4378-ab6f-e70c8d039489' # Award Types
+  - 'deletepeerentrydrafts:db2c50a4-a041-426b-80d7-786a270f991f' # Services
+  - 'deletepeerentrydrafts:de9f415c-6141-4af4-a5f7-90f4e1c7c487' # Team
+  - 'deletepeerentrydrafts:e1e54d02-3746-4311-a614-328f8a6d5ed9' # Client
+  - 'deletepeerentrydrafts:f33a4fda-fb85-45e5-913a-b359cbafebe9' # Article Tags
+  - 'deletepeerentrydrafts:f4a76551-7ef9-4bab-a4e3-339aca409e23' # Work Tags
+  - 'deletepeerentrydrafts:f8169c70-f4a3-4445-a847-d207163e31a9' # Globals
+  - 'editimages:8387a5ea-bb2b-4956-848f-a865c1b0cee4' # Stickers
+  - 'editimages:8f7efc74-2340-4272-aeda-5ed035ef86ed' # Site Downloads
+  - 'editimages:a625c679-6f75-4411-a9c0-2b7905be1063' # Shop: Images
+  - 'editimages:c2ff7f4c-55dc-4a42-93d4-59505cda75f0' # Site Users
+  - 'editimages:e8bc61b2-50c2-490c-9613-acb241ba431f' # Site Graphics
+  - 'editimages:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+  - 'editpeerimages:8387a5ea-bb2b-4956-848f-a865c1b0cee4' # Stickers
+  - 'editpeerimages:8f7efc74-2340-4272-aeda-5ed035ef86ed' # Site Downloads
+  - 'editpeerimages:c2ff7f4c-55dc-4a42-93d4-59505cda75f0' # Site Users
+  - 'editpeerimages:e8bc61b2-50c2-490c-9613-acb241ba431f' # Site Graphics
+  - 'editpeerimages:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+  - 'replacefiles:8387a5ea-bb2b-4956-848f-a865c1b0cee4' # Stickers
+  - 'replacefiles:8f7efc74-2340-4272-aeda-5ed035ef86ed' # Site Downloads
+  - 'replacefiles:a625c679-6f75-4411-a9c0-2b7905be1063' # Shop: Images
+  - 'replacefiles:c2ff7f4c-55dc-4a42-93d4-59505cda75f0' # Site Users
+  - 'replacefiles:e8bc61b2-50c2-490c-9613-acb241ba431f' # Site Graphics
+  - 'replacefiles:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+  - 'replacepeerfiles:8387a5ea-bb2b-4956-848f-a865c1b0cee4' # Stickers
+  - 'replacepeerfiles:8f7efc74-2340-4272-aeda-5ed035ef86ed' # Site Downloads
+  - 'replacepeerfiles:c2ff7f4c-55dc-4a42-93d4-59505cda75f0' # Site Users
+  - 'replacepeerfiles:e8bc61b2-50c2-490c-9613-acb241ba431f' # Site Graphics
+  - 'replacepeerfiles:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+  - 'retour:dashboard'
+  - 'retour:redirects'
+  - 'retour:settings'
+  - 'retour:shortlinks'
+  - 'saveassets:8387a5ea-bb2b-4956-848f-a865c1b0cee4' # Stickers
+  - 'saveassets:8f7efc74-2340-4272-aeda-5ed035ef86ed' # Site Downloads
+  - 'saveassets:a625c679-6f75-4411-a9c0-2b7905be1063' # Shop: Images
+  - 'saveassets:c2ff7f4c-55dc-4a42-93d4-59505cda75f0' # Site Users
+  - 'saveassets:e8bc61b2-50c2-490c-9613-acb241ba431f' # Site Graphics
+  - 'saveassets:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+  - 'saveentries:0fe1fe7e-9e1d-432b-9401-fa46118d05f4' # Modules
+  - 'saveentries:18ce4035-f866-4843-8748-e27173a3a8f8' # Homepage
+  - 'saveentries:222d6ea4-e3a8-4270-8dae-597e1c1f38d4' # Articles
+  - 'saveentries:40dc5d7c-524a-4527-aa32-9e6bddf371d1' # Work
+  - 'saveentries:4876b305-29b9-46ea-a03b-10977aef0809' # Promotion Types
+  - 'saveentries:660190df-e2e1-4a1a-a748-166223dac7c1' # Article Types
+  - 'saveentries:85b2fbdb-9500-435a-b28a-6fc42c209347' # Sizes
+  - 'saveentries:929c3ed2-7b8a-4e3e-860d-87289b0843a6' # Custom Stage
+  - 'saveentries:93297297-8001-4979-976a-a26b30908e1e' # Genders
+  - 'saveentries:9552d158-a89b-47ee-8d24-17d6138c0efc' # Partner
+  - 'saveentries:9ff99054-4a17-44a0-b383-334c097b1ec0' # Units
+  - 'saveentries:a54ab976-db3d-4c2f-9046-9fc5b67fca75' # Jobs
+  - 'saveentries:ad6b7331-f1d3-44a9-b70f-24214262a47b' # Pages
+  - 'saveentries:d199b1f5-9270-4a24-bd7f-6d4708506528' # FAQs
+  - 'saveentries:d424c57e-8f4c-4378-ab6f-e70c8d039489' # Award Types
+  - 'saveentries:db2c50a4-a041-426b-80d7-786a270f991f' # Services
+  - 'saveentries:de9f415c-6141-4af4-a5f7-90f4e1c7c487' # Team
+  - 'saveentries:e1e54d02-3746-4311-a614-328f8a6d5ed9' # Client
+  - 'saveentries:f33a4fda-fb85-45e5-913a-b359cbafebe9' # Article Tags
+  - 'saveentries:f4a76551-7ef9-4bab-a4e3-339aca409e23' # Work Tags
+  - 'saveentries:f8169c70-f4a3-4445-a847-d207163e31a9' # Globals
+  - 'savepeerassets:8387a5ea-bb2b-4956-848f-a865c1b0cee4' # Stickers
+  - 'savepeerassets:8f7efc74-2340-4272-aeda-5ed035ef86ed' # Site Downloads
+  - 'savepeerassets:c2ff7f4c-55dc-4a42-93d4-59505cda75f0' # Site Users
+  - 'savepeerassets:e8bc61b2-50c2-490c-9613-acb241ba431f' # Site Graphics
+  - 'savepeerassets:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+  - 'savepeerentries:222d6ea4-e3a8-4270-8dae-597e1c1f38d4' # Articles
+  - 'savepeerentries:40dc5d7c-524a-4527-aa32-9e6bddf371d1' # Work
+  - 'savepeerentries:4876b305-29b9-46ea-a03b-10977aef0809' # Promotion Types
+  - 'savepeerentries:660190df-e2e1-4a1a-a748-166223dac7c1' # Article Types
+  - 'savepeerentries:85b2fbdb-9500-435a-b28a-6fc42c209347' # Sizes
+  - 'savepeerentries:929c3ed2-7b8a-4e3e-860d-87289b0843a6' # Custom Stage
+  - 'savepeerentries:93297297-8001-4979-976a-a26b30908e1e' # Genders
+  - 'savepeerentries:9552d158-a89b-47ee-8d24-17d6138c0efc' # Partner
+  - 'savepeerentries:9ff99054-4a17-44a0-b383-334c097b1ec0' # Units
+  - 'savepeerentries:a54ab976-db3d-4c2f-9046-9fc5b67fca75' # Jobs
+  - 'savepeerentries:ad6b7331-f1d3-44a9-b70f-24214262a47b' # Pages
+  - 'savepeerentries:d199b1f5-9270-4a24-bd7f-6d4708506528' # FAQs
+  - 'savepeerentries:d424c57e-8f4c-4378-ab6f-e70c8d039489' # Award Types
+  - 'savepeerentries:db2c50a4-a041-426b-80d7-786a270f991f' # Services
+  - 'savepeerentries:de9f415c-6141-4af4-a5f7-90f4e1c7c487' # Team
+  - 'savepeerentries:e1e54d02-3746-4311-a614-328f8a6d5ed9' # Client
+  - 'savepeerentries:f33a4fda-fb85-45e5-913a-b359cbafebe9' # Article Tags
+  - 'savepeerentries:f4a76551-7ef9-4bab-a4e3-339aca409e23' # Work Tags
+  - 'savepeerentrydrafts:0fe1fe7e-9e1d-432b-9401-fa46118d05f4' # Modules
+  - 'savepeerentrydrafts:18ce4035-f866-4843-8748-e27173a3a8f8' # Homepage
+  - 'savepeerentrydrafts:222d6ea4-e3a8-4270-8dae-597e1c1f38d4' # Articles
+  - 'savepeerentrydrafts:40dc5d7c-524a-4527-aa32-9e6bddf371d1' # Work
+  - 'savepeerentrydrafts:4876b305-29b9-46ea-a03b-10977aef0809' # Promotion Types
+  - 'savepeerentrydrafts:660190df-e2e1-4a1a-a748-166223dac7c1' # Article Types
+  - 'savepeerentrydrafts:85b2fbdb-9500-435a-b28a-6fc42c209347' # Sizes
+  - 'savepeerentrydrafts:929c3ed2-7b8a-4e3e-860d-87289b0843a6' # Custom Stage
+  - 'savepeerentrydrafts:93297297-8001-4979-976a-a26b30908e1e' # Genders
+  - 'savepeerentrydrafts:9552d158-a89b-47ee-8d24-17d6138c0efc' # Partner
+  - 'savepeerentrydrafts:9ff99054-4a17-44a0-b383-334c097b1ec0' # Units
+  - 'savepeerentrydrafts:a54ab976-db3d-4c2f-9046-9fc5b67fca75' # Jobs
+  - 'savepeerentrydrafts:ad6b7331-f1d3-44a9-b70f-24214262a47b' # Pages
+  - 'savepeerentrydrafts:d199b1f5-9270-4a24-bd7f-6d4708506528' # FAQs
+  - 'savepeerentrydrafts:d424c57e-8f4c-4378-ab6f-e70c8d039489' # Award Types
+  - 'savepeerentrydrafts:db2c50a4-a041-426b-80d7-786a270f991f' # Services
+  - 'savepeerentrydrafts:de9f415c-6141-4af4-a5f7-90f4e1c7c487' # Team
+  - 'savepeerentrydrafts:e1e54d02-3746-4311-a614-328f8a6d5ed9' # Client
+  - 'savepeerentrydrafts:f33a4fda-fb85-45e5-913a-b359cbafebe9' # Article Tags
+  - 'savepeerentrydrafts:f4a76551-7ef9-4bab-a4e3-339aca409e23' # Work Tags
+  - 'savepeerentrydrafts:f8169c70-f4a3-4445-a847-d207163e31a9' # Globals
+  - 'seomatic:content-meta'
+  - 'seomatic:content-meta:facebook'
+  - 'seomatic:content-meta:general'
+  - 'seomatic:content-meta:sitemap'
+  - 'seomatic:content-meta:twitter'
+  - 'seomatic:dashboard'
+  - 'seomatic:global-meta'
+  - 'seomatic:global-meta:ads'
+  - 'seomatic:global-meta:facebook'
+  - 'seomatic:global-meta:general'
+  - 'seomatic:global-meta:humans'
+  - 'seomatic:global-meta:robots'
+  - 'seomatic:global-meta:security'
+  - 'seomatic:global-meta:twitter'
+  - 'seomatic:site-settings'
+  - 'seomatic:site-settings:creator'
+  - 'seomatic:site-settings:identity'
+  - 'seomatic:site-settings:miscellaneous'
+  - 'seomatic:site-settings:sitemap'
+  - 'seomatic:site-settings:social'
+  - 'viewassets:8387a5ea-bb2b-4956-848f-a865c1b0cee4' # Stickers
+  - 'viewassets:8f7efc74-2340-4272-aeda-5ed035ef86ed' # Site Downloads
+  - 'viewassets:a625c679-6f75-4411-a9c0-2b7905be1063' # Shop: Images
+  - 'viewassets:c2ff7f4c-55dc-4a42-93d4-59505cda75f0' # Site Users
+  - 'viewassets:e8bc61b2-50c2-490c-9613-acb241ba431f' # Site Graphics
+  - 'viewassets:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+  - 'viewentries:0fe1fe7e-9e1d-432b-9401-fa46118d05f4' # Modules
+  - 'viewentries:18ce4035-f866-4843-8748-e27173a3a8f8' # Homepage
+  - 'viewentries:222d6ea4-e3a8-4270-8dae-597e1c1f38d4' # Articles
+  - 'viewentries:40dc5d7c-524a-4527-aa32-9e6bddf371d1' # Work
+  - 'viewentries:4876b305-29b9-46ea-a03b-10977aef0809' # Promotion Types
+  - 'viewentries:660190df-e2e1-4a1a-a748-166223dac7c1' # Article Types
+  - 'viewentries:85b2fbdb-9500-435a-b28a-6fc42c209347' # Sizes
+  - 'viewentries:929c3ed2-7b8a-4e3e-860d-87289b0843a6' # Custom Stage
+  - 'viewentries:93297297-8001-4979-976a-a26b30908e1e' # Genders
+  - 'viewentries:9552d158-a89b-47ee-8d24-17d6138c0efc' # Partner
+  - 'viewentries:9ff99054-4a17-44a0-b383-334c097b1ec0' # Units
+  - 'viewentries:a54ab976-db3d-4c2f-9046-9fc5b67fca75' # Jobs
+  - 'viewentries:ad6b7331-f1d3-44a9-b70f-24214262a47b' # Pages
+  - 'viewentries:d199b1f5-9270-4a24-bd7f-6d4708506528' # FAQs
+  - 'viewentries:d424c57e-8f4c-4378-ab6f-e70c8d039489' # Award Types
+  - 'viewentries:db2c50a4-a041-426b-80d7-786a270f991f' # Services
+  - 'viewentries:de9f415c-6141-4af4-a5f7-90f4e1c7c487' # Team
+  - 'viewentries:e1e54d02-3746-4311-a614-328f8a6d5ed9' # Client
+  - 'viewentries:f33a4fda-fb85-45e5-913a-b359cbafebe9' # Article Tags
+  - 'viewentries:f4a76551-7ef9-4bab-a4e3-339aca409e23' # Work Tags
+  - 'viewentries:f8169c70-f4a3-4445-a847-d207163e31a9' # Globals
+  - 'viewpeerassets:8387a5ea-bb2b-4956-848f-a865c1b0cee4' # Stickers
+  - 'viewpeerassets:8f7efc74-2340-4272-aeda-5ed035ef86ed' # Site Downloads
+  - 'viewpeerassets:a625c679-6f75-4411-a9c0-2b7905be1063' # Shop: Images
+  - 'viewpeerassets:c2ff7f4c-55dc-4a42-93d4-59505cda75f0' # Site Users
+  - 'viewpeerassets:e8bc61b2-50c2-490c-9613-acb241ba431f' # Site Graphics
+  - 'viewpeerassets:ff0b5648-f1d6-418e-ba27-5075ee7ed5ca' # Site Images
+  - 'viewpeerentries:222d6ea4-e3a8-4270-8dae-597e1c1f38d4' # Articles
+  - 'viewpeerentries:40dc5d7c-524a-4527-aa32-9e6bddf371d1' # Work
+  - 'viewpeerentries:4876b305-29b9-46ea-a03b-10977aef0809' # Promotion Types
+  - 'viewpeerentries:660190df-e2e1-4a1a-a748-166223dac7c1' # Article Types
+  - 'viewpeerentries:85b2fbdb-9500-435a-b28a-6fc42c209347' # Sizes
+  - 'viewpeerentries:929c3ed2-7b8a-4e3e-860d-87289b0843a6' # Custom Stage
+  - 'viewpeerentries:93297297-8001-4979-976a-a26b30908e1e' # Genders
+  - 'viewpeerentries:9552d158-a89b-47ee-8d24-17d6138c0efc' # Partner
+  - 'viewpeerentries:9ff99054-4a17-44a0-b383-334c097b1ec0' # Units
+  - 'viewpeerentries:a54ab976-db3d-4c2f-9046-9fc5b67fca75' # Jobs
+  - 'viewpeerentries:ad6b7331-f1d3-44a9-b70f-24214262a47b' # Pages
+  - 'viewpeerentries:d199b1f5-9270-4a24-bd7f-6d4708506528' # FAQs
+  - 'viewpeerentries:d424c57e-8f4c-4378-ab6f-e70c8d039489' # Award Types
+  - 'viewpeerentries:db2c50a4-a041-426b-80d7-786a270f991f' # Services
+  - 'viewpeerentries:de9f415c-6141-4af4-a5f7-90f4e1c7c487' # Team
+  - 'viewpeerentries:e1e54d02-3746-4311-a614-328f8a6d5ed9' # Client
+  - 'viewpeerentries:f33a4fda-fb85-45e5-913a-b359cbafebe9' # Article Tags
+  - 'viewpeerentries:f4a76551-7ef9-4bab-a4e3-339aca409e23' # Work Tags
+  - 'viewpeerentrydrafts:0fe1fe7e-9e1d-432b-9401-fa46118d05f4' # Modules
+  - 'viewpeerentrydrafts:18ce4035-f866-4843-8748-e27173a3a8f8' # Homepage
+  - 'viewpeerentrydrafts:222d6ea4-e3a8-4270-8dae-597e1c1f38d4' # Articles
+  - 'viewpeerentrydrafts:40dc5d7c-524a-4527-aa32-9e6bddf371d1' # Work
+  - 'viewpeerentrydrafts:4876b305-29b9-46ea-a03b-10977aef0809' # Promotion Types
+  - 'viewpeerentrydrafts:660190df-e2e1-4a1a-a748-166223dac7c1' # Article Types
+  - 'viewpeerentrydrafts:85b2fbdb-9500-435a-b28a-6fc42c209347' # Sizes
+  - 'viewpeerentrydrafts:929c3ed2-7b8a-4e3e-860d-87289b0843a6' # Custom Stage
+  - 'viewpeerentrydrafts:93297297-8001-4979-976a-a26b30908e1e' # Genders
+  - 'viewpeerentrydrafts:9552d158-a89b-47ee-8d24-17d6138c0efc' # Partner
+  - 'viewpeerentrydrafts:9ff99054-4a17-44a0-b383-334c097b1ec0' # Units
+  - 'viewpeerentrydrafts:a54ab976-db3d-4c2f-9046-9fc5b67fca75' # Jobs
+  - 'viewpeerentrydrafts:ad6b7331-f1d3-44a9-b70f-24214262a47b' # Pages
+  - 'viewpeerentrydrafts:d199b1f5-9270-4a24-bd7f-6d4708506528' # FAQs
+  - 'viewpeerentrydrafts:d424c57e-8f4c-4378-ab6f-e70c8d039489' # Award Types
+  - 'viewpeerentrydrafts:db2c50a4-a041-426b-80d7-786a270f991f' # Services
+  - 'viewpeerentrydrafts:de9f415c-6141-4af4-a5f7-90f4e1c7c487' # Team
+  - 'viewpeerentrydrafts:e1e54d02-3746-4311-a614-328f8a6d5ed9' # Client
+  - 'viewpeerentrydrafts:f33a4fda-fb85-45e5-913a-b359cbafebe9' # Article Tags
+  - 'viewpeerentrydrafts:f4a76551-7ef9-4bab-a4e3-339aca409e23' # Work Tags
+  - 'viewpeerentrydrafts:f8169c70-f4a3-4445-a847-d207163e31a9' # Globals

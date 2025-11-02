@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: singleButtonGroup
+instructions: null
+name: 'Single: Button Group'
+searchable: true
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 90a4cf47-bc1f-453a-b62b-5b2bd78817df # Single: Button Group Block
+  includeTableView: false
+  maxEntries: 5
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: none
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

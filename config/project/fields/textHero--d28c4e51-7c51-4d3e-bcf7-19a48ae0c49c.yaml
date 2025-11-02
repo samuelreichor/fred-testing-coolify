@@ -1,0 +1,88 @@
+columnSuffix: null
+handle: textHero
+instructions: null
+name: 'Text Hero'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 9b83e439-02e8-4991-af6c-a1a57bb310d8
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Content
+                    1:
+                      - uid
+                      - 7661d16d-57ae-4759-bd26-10401115aecd
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-22T15:15:41+00:00'
+                            11:
+                              - uid
+                              - c51853d4-7315-47bf-bcd2-ceff729f2051
+                            14:
+                              - fieldUid
+                              - 991258ec-3bf6-445b-a700-ceeeb9d03837 # Headline
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            2:
+                              - label
+                              - 'Intro Text'
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-22T15:15:41+00:00'
+                            11:
+                              - uid
+                              - 1757eced-71ea-46b5-8d3f-a93cc622b84e
+                            14:
+                              - fieldUid
+                              - 0c2613d8-abac-4fa7-856a-14f3eda4b9f8 # Richtext Simple
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

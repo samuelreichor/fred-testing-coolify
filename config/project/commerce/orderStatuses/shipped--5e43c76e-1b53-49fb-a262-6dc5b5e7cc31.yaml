@@ -1,0 +1,7 @@
+color: blue
+default: false
+description: null
+handle: shipped
+name: Shipped
+sortOrder: 999
+store: 184af154-e697-4361-b981-bd5a71a1bf6e # Primary Store

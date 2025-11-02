@@ -1,0 +1,19 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: b82a7b3b-3090-4b0d-a6ff-50c4711e61e2 # Entry: Client
+handle: client
+maxAuthors: 1
+name: Client
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: 9af82f9a-251c-4db5-961a-d7969b83b9bd
+type: structure

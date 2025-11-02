@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: shopGender
+instructions: null
+name: 'Shop: Gender'
+searchable: true
+settings:
+  allowSelfRelations: false
+  branchLimit: 1
+  defaultPlacement: end
+  maintainHierarchy: true
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSearchInput: true
+  showSiteMenu: true
+  showUnpermittedEntries: true
+  showUnpermittedSections: true
+  sources:
+    - 'section:93297297-8001-4979-976a-a26b30908e1e' # Genders
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

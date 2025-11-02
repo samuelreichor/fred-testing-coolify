@@ -1,0 +1,19 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: e59dbbbe-d4dc-4e1e-b101-4953fbde1fe9 # Entry: Work Tag
+handle: workTags
+maxAuthors: 1
+name: 'Work Tags'
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: 5b8ebead-73a2-4d9e-82e5-437ccf0e4374
+type: structure

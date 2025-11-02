@@ -1,0 +1,47 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: cb80e479-58f7-4336-a29a-497ac9c24cc1 # Entry: About
+  -
+    uid: 37452218-af29-4bab-80e1-fa34acfc6d16 # Entry: Articles
+  -
+    uid: db089bb6-8e88-4795-96c1-23694c778669 # Entry: Jobs
+  -
+    uid: effa3742-673d-4a78-b836-f1c72f614c21 # Entry: Landingpage
+  -
+    uid: 9d1a8865-03bb-4839-aa69-17e31ede8053 # Entry: Pages
+  -
+    uid: 80481d08-5262-47ce-be53-0a609eeb9cf3 # Entry: Services
+  -
+    uid: e18a8442-9aed-4f5e-a624-956f63b0ee3a # Entry: Work
+  -
+    uid: 6b1f9f1a-191e-4f3c-985d-eaadff1533dd # Entry: Newsletter
+  -
+    uid: 334a89ca-95f3-4052-be56-9ec5dd34c24c # Entry: Newsletter Transaction
+handle: pages
+maxAuthors: 1
+name: Pages
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - Default
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - ''
+propagationMethod: all
+siteSettings:
+  9e4c5b10-0345-4257-a5a8-70987619b1b7: # Fredmansky (de)
+    enabledByDefault: false
+    hasUrls: true
+    template: null
+    uriFormat: '{% if object.level == 1 %}p/{slug}{% else %}{parent.uri}/{slug}{% endif %}'
+structure:
+  maxLevels: null
+  uid: b851dd62-a4ec-48ae-af65-c381d767cd41
+type: structure

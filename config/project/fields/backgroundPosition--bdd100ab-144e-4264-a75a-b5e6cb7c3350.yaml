@@ -1,0 +1,121 @@
+columnSuffix: null
+handle: backgroundPosition
+instructions: null
+name: 'Settings: Image Cover - Background Position'
+searchable: true
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Focalpoint
+        -
+          - value
+          - focalpoint
+        -
+          - default
+          - 1
+    -
+      __assoc__:
+        -
+          - label
+          - 'Left : Top'
+        -
+          - value
+          - '0% 0%'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Left : Center'
+        -
+          - value
+          - '0% 50%'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Left : Bottom'
+        -
+          - value
+          - '0% 100%'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Center : Top'
+        -
+          - value
+          - '50% 0%'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Center : Center'
+        -
+          - value
+          - '50% 50%'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Center : Bottom'
+        -
+          - value
+          - '50% 100%'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Right : Top'
+        -
+          - value
+          - '100% 0%'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Right : Center'
+        -
+          - value
+          - '100% 50%'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Right : Bottom'
+        -
+          - value
+          - '100% 100%'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown
